@@ -331,7 +331,15 @@ figure img {
   border-collapse: collapse;
   width: 100%;
   border: 2px solid var(--color-ash);
+  overflow-x: auto;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
 .note-table th, td {
   border: 1px solid #ccc;
   padding: 10px;
@@ -340,7 +348,14 @@ figure img {
 .note-table th {
   background-color: #f2f2f2;
 }
+ 
 
+@media (max-width:600px) {
+  th, td {
+    padding: 4px;
+    font-size: 0.7rem;
+  }
+}
 
 /* Style for image container */
 .image-container {
