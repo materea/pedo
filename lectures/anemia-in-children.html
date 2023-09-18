@@ -144,10 +144,17 @@
             <p>It’s not a disease in itself, but a manifestation of other disorders.</p>
             <p>Thus, finding its cause is paramount.</p>
 
-            <figure>
-                <img src="../figures/anemia (1).png" alt="">
-                <figcaption>Age-related values of certain haematologic indices </figcaption>
-            </figure>
+                        <!-- image here -->
+                        <div class="image-container">
+                          <img src="../figures/anemia (1).png" alt="" onclick="openModal(this)">
+                          <div class="caption">Age-related values of certain haematologic indices</div>
+                        </div>
+                        
+                        <div id="myModal" class="modal">
+                          <span class="close" onclick="closeModal()">&times;</span>
+                          <img class="modal-content" id="modalImage">
+                          <div id="caption" class="caption">Age-related values of certain haematologic indices</div>
+                        </div>
 
             <p>In children between the ages of 2 years and 10 years, the lower limit for MCV is 70fl + age (years).</p>
             <p>The approximate upper limit for MCV is obtained by adding 0.6fl per year to 84fl after 1year up to 96fl.</p>
@@ -259,10 +266,18 @@
                     <li>	Dyserythropoietic anaemia </li>
                    </ul>
 
-                   <figure>
-                    <img src="../figures/anemia (2).png" alt="">
-                    <figcaption>Morphological abnormalities of RBCs </figcaption>
-                   </figure>
+                               <!-- image here -->
+            <div class="image-container">
+              <img src="../figures/anemia (2).png" alt="" onclick="openModal(this)">
+              <div class="caption">Morphological abnormalities of RBCs </div>
+            </div>
+            
+            <div id="myModal" class="modal">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <img class="modal-content" id="modalImage">
+              <div id="caption" class="caption">Morphological abnormalities of RBCs </div>
+            </div>
+
                 </div>
             </section>
         </div>
