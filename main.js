@@ -7,7 +7,7 @@ function scrollUp(){
 window.addEventListener('scroll', scrollUp)
 
 
-// JavaScript function to show the pop-up dive
+// JavaScript function to show the pop-up dive for disclaimer
 function showPopup() {
 var popup = document.getElementById("popup");
 popup.style.display = "block";

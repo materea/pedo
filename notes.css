@@ -377,7 +377,7 @@ table {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 
 }
 
@@ -393,7 +393,7 @@ table {
 }
 
 .close {
-  color: var(--color-ash);
+  color: white;
   border-radius: 10px;
   padding: 0 .5rem 0 .5rem;
   position: absolute;
@@ -411,4 +411,9 @@ table {
   background-color: var(--color-darker);
   padding: 5px;
   font-size: 0.6rem;
+}
+
+#caption {
+  position: absolute;
+  bottom: 3%;
 }
