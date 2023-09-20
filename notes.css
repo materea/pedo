@@ -410,4 +410,5 @@ table {
   color: white;
   background-color: var(--color-darker);
   padding: 5px;
+  font-size: 0.6rem;
 }
