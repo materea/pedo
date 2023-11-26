@@ -1352,7 +1352,7 @@ figcaption {
   display: none;
   position: absolute;
   width: 60%;
-  top: 57%; /* Adjust the distance below the search box */
+  top: 40%; /* Adjust the distance below the search box */
   left: 20%;
   right: 20%;
   background-color: #fff;
@@ -1391,6 +1391,11 @@ figcaption {
   margin-bottom: 10px;
   border-bottom: 1px solid var(--color-ash); /* Add a line between each search result item */
   padding-bottom: 5px; /* Add some space between the line and the next item */
+}
+
+#content li:last-child {
+  margin-bottom: 0px;
+  border-bottom: none;
 }
 
 #content a {
@@ -1705,7 +1710,7 @@ body.dark-mode {
         @media (min-width: 600px) {
 
           #content {
-            top: 60%; /* Adjust the distance below the search box */
+            top: 56%; /* Adjust the distance below the search box */
           }
       }
 
@@ -1735,7 +1740,7 @@ body.dark-mode {
   }
 
   #content {
-    top: 63%; /* Adjust the distance below the search box */
+    top: 59%; /* Adjust the distance below the search box */
   }
 
 }
