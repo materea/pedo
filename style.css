@@ -112,7 +112,6 @@ blockquote {
 
   margin: 0 auto;
   max-width: 60rem;
-  padding: 1.5rem;
 }
 
 .course-description-text{
@@ -1710,12 +1709,7 @@ body.dark-mode {
           }
       }
 
-      /* Media query for desktops */
-      @media (min-width: 900px) {
 
-        #content {
-        }
-      }
 
 @media (min-width: 1040px) {
   .page-container {
