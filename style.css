@@ -1354,7 +1354,7 @@ figcaption {
 #content {
   display: none;
   position: absolute;
-  width: 60%;
+  width: 65%;
   top: 40%; /* Adjust the distance below the search box */
   left: 20%;
   right: 20%;
