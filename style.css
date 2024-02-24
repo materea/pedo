@@ -1099,7 +1099,7 @@ footer p, footer span{
   border-radius: 8px;
   padding: 20px;
   margin-left: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem;wa
   width: 90%;
   background-color: var(--color-darker-dark);
 }
@@ -1821,7 +1821,7 @@ figcaption {
 /* warning popup */
 
 .warning-popup {
-  background-color: #fff;
+  background-color: var(--color-secondary-lighter);
   border: 1px solid #ccc;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -1839,9 +1839,14 @@ figcaption {
 }
 
 .warning-popup h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-bottom: 10px;
   font-family: var(--font-family-quartenary);
+}
+
+.warning-popup img {
+  height: 10rem;
+  width: auto;
 }
 
 .warning-popup p {
@@ -1849,6 +1854,7 @@ figcaption {
   text-align: left;
   font-family: var(--font-family-primary);
 }
+
 
 #close-popup {
   background-color: var(--color-darker);
@@ -1862,7 +1868,7 @@ figcaption {
 }
 
 #close-popup:hover {
-  background-color: var(--color-red);
+  background-color: var(--color-secondary);
 }
 
 /* more-resources */
@@ -2105,7 +2111,7 @@ input[type="checkbox"] {
    margin: 2rem 0;
 }
  blockquote.q-card::before {
-	 --qHeight: 4rem;
+	 --qHeight: 2rem;
 	 content: "";
 	 margin-left: calc(var(--padding) * -1);
 	 margin-top: calc(var(--padding) * -1);
