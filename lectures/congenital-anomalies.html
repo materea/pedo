@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Congenital Anomalies</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+  <h1>Congenital Anomalies</h1>
+
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+        
+          <br>
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Definitions</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li><strong>Birth defect</strong>, <strong>congenital malformation</strong>, and <strong>congenital anomaly</strong> are synonymous terms used to describe structural, behavioral, functional, and metabolic disorders present at birth.</li>
+                <li>These defects may be classified as <strong>major</strong> or <strong>minor</strong>:
+                    <ul>
+                        <li><strong>Major</strong>: Requiring medical or surgical treatment or entailing significant handicaps, diagnosed at birth or during childhood. <strong>Examples</strong>: Spinal tube defects, cardiac defects.</li>
+                        <li><strong>Minor</strong>: Developmental anomalies present at birth, but not requiring intervention or causing handicaps. <strong>Examples</strong>: Microtia.</li>
+                        <li>Minor defects can serve as clues or pointers to the presence of more serious defects, <strong>e.g.</strong> single umbilical artery.</li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Types of Birth Defects</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <h4>Malformations</h4>
+            <ul>
+                <li><strong>Malformations</strong>: A primary structural defect arising from a localized error in morphogenesis, resulting in the abnormal formation of a tissue or organ.</li>
+            </ul>
+            
+            <h4>Dysplasia</h4>
+            <ul>
+                <li><strong>Dysplasia</strong>: Refers to an abnormal organization of cells into tissues.</li>
+            </ul>
+            
+            <h4>Malformation Sequence</h4>
+            <ul>
+                <li><strong>Malformation sequence</strong>: A single, local tissue morphogenetic abnormality that produces a chain of subsequent defects. <strong>Example</strong>: Potter sequence (oligohydramnios, pulmonary hypoplasia, Potter facies, and joint contracture).</li>
+            </ul>
+            
+            <h4>Malformation Syndrome</h4>
+            <ul>
+                <li><strong>Malformation syndrome</strong>: The appearance of multiple malformations in unrelated tissues without an understandable unifying cause. <strong>Examples</strong>: DeGeorge syndrome, Down syndrome, Edward syndrome.</li>
+            </ul>
+            
+            <h4>Deformation</h4>
+            <ul>
+                <li><strong>Deformation</strong>: An abnormal form, shape, or position of a part of the body that results from mechanical forces. Intrauterine compression resulting from oligohydramnios can produce an equinovarus foot or clubfoot. Deformations often involve the musculoskeletal system.</li>
+            </ul>
+            
+            <h4>Disruption</h4>
+            <ul>
+                <li><strong>Disruption</strong>: Results from the extrinsic breakdown of, or interference with, an originally normal developmental process. <strong>Examples</strong>: Amniotic fluid bands causing amputation, interruption of blood supply causing infarction.</li>
+                <li>Deformations and disruptions are secondary effects that result from forces generated extrinsic to the affected tissue or organ.</li>
+            </ul>
+            
+            <h4>Syndrome</h4>
+            <ul>
+                <li><strong>Syndrome</strong>: A group of anomalies occurring together and having a specific common cause. This term indicates that a diagnosis has been made and that the risk of recurrence is known.</li>
+            </ul>
+            
+            <h4>Association</h4>
+            <ul>
+                <li><strong>Association</strong>: The non-random appearance of two or more anomalies occurring together more frequently, but whose cause has not been determined. <strong>Example</strong>: VACTERL (Vertebral, Anal, Cardiac, Trachea, Esophageal, Renal, and Limb abnormalities).</li>
+                <li>The most sensitive time for risks of birth defects is the embryonic period during the third to eighth weeks.</li>
+                <li>During the fetal period, the risk for gross structural defects being induced decreases, but organ systems may still be affected. For example, the brain continues to differentiate during the fetal period, such that toxic exposures may cause learning disabilities or mental retardation.</li>
+            </ul>
+            
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Causes of Birth Defects</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Teratogens</h4>
+            <ul>
+                <li><strong>Teratogens</strong>: A factor that has an adverse effect on the conceptus, from fertilization till birth. The term is usually limited to environmental agents like drugs and viruses. <strong>Examples</strong>: Thalidomide, diphenylhydantoin (phenytoin), valproic acid, etc.</li>
+                <li>The most susceptible period is between the <strong>3rd and 8th week</strong> of gestation.</li>
+            </ul>
+           
+            
+            <table class="note-table"> 
+                <thead>
+                    <tr>
+                        <th colspan="2">Teratogens and Their Effects on the Fetus</th>
+                    </tr>
+                    <tr>
+                        <th><strong>Teratogen</strong></th>
+                        <th><strong>Effect on Fetus</strong></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>ACE inhibitors</strong></td>
+                        <td>Renal damage</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Alkylating agents</strong></td>
+                        <td>Absent digits, multiple anomalies</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Aminoglycosides</strong></td>
+                        <td>CN VIII toxicity</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Carbamazepine</strong></td>
+                        <td>Neural tube defects, craniofacial defects, developmental delay, IUGR</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Diethylstilbestrol (DES)</strong></td>
+                        <td>Vaginal clear cell adenocarcinoma, cervical cancer</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Folate antagonists</strong></td>
+                        <td>Neural tube defects</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lithium</strong></td>
+                        <td>Ebstein’s anomaly (atrialized right ventricle)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Phenytoin</strong></td>
+                        <td>Fetal hydantoin syndrome: microcephaly, dysmorphic craniofacial features, hypoplastic nails and distal phalanges, cardiac defects, IUGR, mental retardation</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tetracyclines</strong></td>
+                        <td>Discolored teeth</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Thalidomide</strong></td>
+                        <td>Limb defects: amelia and meromelia (total or partial absence of extremities)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Valproate</strong></td>
+                        <td>Inhibits maternal folate absorption</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+
+            <h4>Chromosomal Abnormalities</h4>
+            <ul>
+                <li><strong>Determined at conception</strong></li>
+                <li>Examples: <strong>Down Syndrome</strong>, <strong>Patau Syndrome</strong>, <strong>Edward Syndrome</strong></li>
+            </ul>
+            
+            <h4>Single Gene Defects</h4>
+            <ul>
+                <li><strong>Usually inherited</strong></li>
+                <li>Examples: <strong>Phenylketonuria</strong>, <strong>Tay-Sachs disease</strong></li>
+            </ul>
+            
+            <h4>Multifactorial Influences</h4>
+            <ul>
+                <li><strong>Combination of genetic factors and teratogens</strong></li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Prevention of Birth Defects</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li><strong>Mental retardation</strong> can be eliminated by supplementation of salt or water with iodine.</li>
+                <li>Placing women with <strong>diabetes</strong> and <strong>phenylketonuria</strong> under strict metabolic control prior to conception reduces the incidence of birth defects in their offspring.</li>
+                <li><strong>Folate supplementation</strong> lowers the incidence of neural tube defects.</li>
+                <li>Avoidance of <strong>alcohol</strong> and other drugs during all stages of pregnancy.</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Prenatal Diagnosis</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <strong>Maternal Serum Screening</strong>
+            <ol>
+                <li><strong>Alpha-fetoprotein (AFP)</strong>
+                    <ul>
+                        <li><strong>↑</strong> in amniotic fluid and maternal serum in cases of neural tube defects and several other abnormalities, including omphalocele, gastroschisis, bladder exstrophy, amniotic band syndrome, sacrococcygeal teratoma, and intestinal atresia.</li>
+                        <li><strong>↓</strong> in Down syndrome, trisomy 18, sex chromosome abnormalities, and triploidy. These conditions are also associated with lower serum concentrations of human chorionic gonadotropin (hCG) and unconjugated estriol.</li>
+                    </ul>
+                </li>
+                <li><strong>Amniocentesis</strong>
+                    <ul>
+                        <li><strong>AFP</strong> and acetylcholinesterase</li>
+                        <li>Fetal cells for karyotyping</li>
+                    </ul>
+                </li>
+                <li><strong>Chorionic Villus Sampling</strong>
+                    <ul>
+                        <li>Chorionic tissue analyzed for genetic characterization</li>
+                    </ul>
+                </li>
+                <li><strong>Ultrasound</strong>
+                    <ul>
+                        <li>Fetal age and growth</li>
+                        <li>Presence of gross anomalies</li>
+                        <li>Placental position</li>
+                        <li>Umbilical blood flow</li>
+                        <li>Presence of multiple gestation</li>
+                    </ul>
+                </li>
+            </ol>
+            
+            <strong>Indications for Prenatal Diagnosis</strong>
+            <ul>
+                <li>Advanced maternal age (35 years and older)</li>
+                <li>Previous family history of a genetic problem, such as the parents having had a child with Down syndrome or a neural tube defect</li>
+                <li>The presence of maternal disease, such as diabetes</li>
+                <li>Abnormal ultrasound or serum screening test</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Common Congenital Anomalies</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <section id='heading-6-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-6-1'>Pyloric Stenosis (IHPS)</a>
+                  </h3>
+                </header>
+                <div class='body'>
+
+                    <ul>
+                        <li><strong>Hypertrophy and hyperplasia</strong> of muscle layers of pylorus causing functional gastric outlet obstruction</li>
+                        <li>Common cause of <strong>nonbilious vomiting</strong></li>
+                        <li>More common in <strong>males</strong>, <strong>whites</strong>, and those with blood group <strong>O</strong> and <strong>B</strong></li>
+                        <li><strong>Mothers</strong> are more likely to pass the condition to their descendants (20% to sons, 10% to daughters) than fathers</li>
+                        <li>Cause remains <strong>unknown</strong>, not congenital</li>
+                    </ul>
+                    
+                    <h4>Clinical Manifestation</h4>
+                    <ul>
+                        <li>Typically presents in the <strong>3rd week</strong> (range: 1st week – 5th month)</li>
+                        <li><strong>Nonbilious postprandial vomiting</strong>; may or may not be projectile</li>
+                        <li><strong>Baby immediately wants to feed again</strong></li>
+                        <li>Signs of <strong>dehydration, weight loss, hypochloraemic metabolic alkalosis</strong></li>
+                        <li><strong>Normal K+</strong></li>
+                    </ul>
+                    
+                    <h4>Diagnosis</h4>
+                    <ul>
+                        <li>Diagnosis is mainly <strong>clinical</strong></li>
+                        <li><strong>Palpation of a firm to hard mobile mass</strong> in the mid epigastrum while baby feeds</li>
+                        <li>Visible <strong>gastric peristalsis</strong> progressing from left to right after baby feeds</li>
+                        <li><strong>Ultrasound (USS)</strong>: pyloric thickness >4mm, pyloric length >14mm</li>
+                        <li><strong>Barium meal</strong>: “shoulder sign”, “double tract sign”</li>
+                    </ul>
+                    
+                    <h4>Differential Diagnosis</h4>
+                    <ul>
+                        <li>Antral web</li>
+                        <li>GERD</li>
+                        <li>Congenital adrenal hyperplasia (salt-losing)</li>
+                        <li>Sepsis</li>
+                        <li>Inborn errors of metabolism</li>
+                        <li>Pyloric atresia</li>
+                        <li>Gastric duplication</li>
+                        <li>Gastric volvulus</li>
+                    </ul>
+                    
+                    <h4>Treatment</h4>
+                    <ul>
+                        <li><strong>Rehydrate</strong> until bicarbonate levels decrease to < 30meq/L</li>
+                        <li><strong>K+</strong> correction as needed</li>
+                        <li><strong>Ramstedt pyloromyotomy procedure</strong></li>
+                    </ul>
+                    
+    
+                </div>
+              </section>
+
+              <section id='heading-6-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-6-2'>Intestinal Obstruction</a>
+                  </h3>
+                </header>
+                <div class='body'>
+
+                    <ul>
+                        <li>Obstruction can be <strong>complete or partial</strong>, <strong>simple or strangulating</strong></li>
+                        <li>Obstructing lesions can be <strong>intrinsic</strong> (e.g., atresia, stenosis, meconium ileus, aganglionic megacolon) or <strong>extrinsic</strong> (e.g., malrotation, constricting bands, intra-abdominal hernias, duplications)</li>
+                        <li><strong>Polyhydramnios</strong> associated with high intestinal obstruction. Gastric aspiration of 15-20ml bile-stained fluid is suggestive</li>
+                        <li><strong>Atresia</strong> refers to complete obstruction of the bowel lumen, while <strong>stenosis</strong> refers to a partial block of luminal contents</li>
+                        <li>Intestinal atresia is common in the <strong>duodenum, jejunum,</strong> and <strong>ileum</strong>, and rare in the colon</li>
+                        <li>Affects males and females with equal frequency</li>
+                    </ul>
+                    
+                    <h4>Pathophysiology</h4>
+                    <ul>
+                        <li>Details about pathophysiology can be elaborated here if needed</li>
+                    </ul>
+                    
+                    <h4>Clinical Presentation</h4>
+                    <p>Depends on the cause, level of obstruction, and time of presentation:</p>
+                    <ul>
+                        <li><strong>Vomiting</strong></li>
+                        <li><strong>Abdominal distension</strong></li>
+                        <li><strong>Obstipation</strong></li>
+                    </ul>
+                    
+                    <h4>Diagnosis</h4>
+                    <ul>
+                        <li>History, especially prenatal <strong>ultrasound (USS)</strong></li>
+                        <li>Symptomatology</li>
+                        <li>Supine, erect, or decubitus <strong>radiographs</strong></li>
+                        <li><strong>CT Scan</strong></li>
+                        <li>Water-soluble contrast studies</li>
+                        <li><strong>FBC</strong>, blood culture, <strong>E, U & Cr</strong></li>
+                    </ul>
+                    
+                    <h4>Treatment</h4>
+                    <ul>
+                        <li><strong>Fluid resuscitation</strong></li>
+                        <li><strong>Nasogastric decompression</strong></li>
+                        <li><strong>Surgical repair</strong></li>
+                    </ul>
+                    
+    
+                </div>
+              </section>
+
+              <section id='heading-6-3'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-6-3'>Duodenal Atresia</a>
+                  </h3>
+                </header>
+                <div class='body'>
+
+                    <ul>
+                        <li>Thought to arise from failure to <strong>recanalize the lumen</strong> after the solid phase of intestinal development in the 4th and 5th week of gestation</li>
+                        <li>Half of patients are preterm</li>
+                        <li>Associated with other congenital anomalies:
+                            <ul>
+                                <li><strong>Malrotation</strong> (20%)</li>
+                                <li><strong>Esophageal atresia</strong> (10–20%)</li>
+                                <li><strong>Congenital heart disease</strong> (10–15%)</li>
+                                <li><strong>Anorectal and renal anomalies</strong> (5%)</li>
+                                <li><strong>Down syndrome</strong> (20-40%); 8% of babies with Down syndrome have duodenal atresia</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h4>Clinical Manifestation</h4>
+                    <ul>
+                        <li><strong>Polyhydramnios</strong></li>
+                        <li><strong>Bilious vomiting</strong> in the first day of life without abdominal distension</li>
+                    </ul>
+                    
+                                <!-- image here -->
+            <div class="image-container">
+                <img src="../figures/congenital-anomalies (2).jpg" alt="" onclick="openModal(this)">
+                <div class="caption">Supine frontal radiograph of the abdomen demonstrates the double bubble sign: an enlarged stomach (S) and proximal duodenum (D) in a neonate with duodenal atresia. </div>
+              </div>
+              
+              <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="caption" class="caption">Supine frontal radiograph of the abdomen demonstrates the double bubble sign: an enlarged stomach (S) and proximal duodenum (D) in a neonate with duodenal atresia. </div>
+              </div>
+                </div>
+              </section>
+
+              <section id='heading-6-4'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-6-4'>Hirschsprung Disease</a>
+                  </h3>
+                </header>
+                <div class='body'>
+
+                    <ul>
+                        <li><strong>Aganglionic Megacolon</strong></li>
+                        <li>Common form of intestinal pseudo-obstruction</li>
+                        <li>Hirschsprung disease is a developmental disorder of the enteric nervous system characterized by the absence of ganglion cells in the distal colon, resulting in a functional obstruction</li>
+                        <li>Should be considered in any newborn who fails to pass meconium within 24-48 hours after birth</li>
+                        <li>Although contrast enema is useful in establishing the diagnosis, full-thickness rectal biopsy remains the criterion standard</li>
+                        <li>Aganglionosis begins with the anus, which is always involved, and continues proximally for a variable distance</li>
+                        <li>Both the <strong>myenteric (Auerbach) plexus</strong> and the <strong>submucosal (Meissner) plexus</strong> are absent, resulting in reduced bowel peristalsis and function</li>
+                        <li>The precise mechanism underlying the development of Hirschsprung disease is unknown</li>
+                        <li><strong>Male:Female</strong> ratio is 4:1</li>
+                        <li>At diagnosis, there is usually an enterocolitis which increases mortality</li>
+                        <li>Positive family history in 10% of patients</li>
+                    </ul>
+                    
+                    <h4>Clinical Manifestation</h4>
+                    <ul>
+                        <li>Delayed passage of meconium</li>
+                        <li>Chronic constipation</li>
+                        <li>Abdominal distention</li>
+                        <li>Poor feeding</li>
+                        <li>Failure to thrive (FTT)</li>
+                        <li>Diarrhea in patients with enterocolitis (10%); can progress to colonic perforation</li>
+                        <li>On examination: distended abdomen, anal spasm</li>
+                    </ul>
+                    
+                    <h4>Diagnosis</h4>
+                    <ul>
+                        <li>Rectal biopsy</li>
+                    </ul>
+                    
+                    <h4>Treatment</h4>
+                    <ul>
+                        <li><strong>PSARP:</strong> Posterior sagittal anorectoplasty</li>
+                    </ul>
+                    
+    
+                </div>
+              </section>
+
+              <section id='heading-6-5'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-6-5'>Spinal Dysraphism</a>
+                  </h3>
+                </header>
+                <div class='body'>
+
+                    <ul>
+                        <li>Neural tube defects (NTDs) account for most congenital anomalies of the central nervous system (CNS) and result from failure of the neural tube to close spontaneously between the 3rd and 4th week of in utero development</li>
+                        <li>Major neural tube defects include:
+                            <ul>
+                                <li>Spina bifida occulta</li>
+                                <li>Meningocele</li>
+                                <li>Myelomeningocele</li>
+                                <li>Encephalocele</li>
+                                <li>Anencephaly</li>
+                                <li>Dermal sinus</li>
+                                <li>Tethered cord</li>
+                                <li>Syringomyelia</li>
+                                <li>Diastematomyelia</li>
+                                <li>Lipoma involving the conus medullaris and/or filum terminale</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                    <h4>Implicated Factors</h4>
+                    <ul>
+                        <li>Hyperthermia</li>
+                        <li>Drugs: carbamazepine, valproic acid, methotrexate</li>
+                        <li>Malnutrition</li>
+                        <li>Chemicals: Al, Co, agent orange</li>
+                        <li>Maternal obesity or diabetes</li>
+                        <li>Genetic mutations in folate-dependent pathways</li>
+                        <li>Exposure of mother to radiation before conception</li>
+                    </ul>
+                    
+                    <p><strong>Review Embryology of the Neural Tube:</strong> Normally, the rostral end of the neural tube closes on the 23rd day and the caudal neuropore closes by a process of secondary neurulation by the 27th day of development, before the time that many women realize they are pregnant.</p>
+                    
+                    <h4>Spina Bifida Occulta</h4>
+                    <ul>
+                        <li>Midline defect of the vertebral bodies without protrusion of the spinal cord or meninges</li>
+                        <li>Usually occurs at L5 – S1</li>
+                        <li>No neurological signs in most cases</li>
+                        <li>Patches of hair, a lipoma, discoloration of the skin, or a dermal sinus in the midline of the lower back suggests a more significant malformation of the spinal cord</li>
+                        <li>Occasionally associated with more significant developmental abnormalities of the spinal cord, including syringomyelia, diastematomyelia, and a tethered cord. These are best identified with MRI</li>
+                        
+                    </ul>
+                    
+                                <!-- image here -->
+            <div class="image-container">
+                <img src="../figures/congenital-anomalies (1).jpg" alt="" onclick="openModal(this)">
+                <div class="caption">Spina bifida oculta</div>
+              </div>
+              
+              <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage">
+                <div id="caption" class="caption">Spina bifida oculta</div>
+              </div>
+                    <h4>Myelomeningocele</h4>
+                    <ul>
+                        <li>Most severe form of dysraphism involving the vertebral column</li>
+                        <li>Cause is unknown</li>
+                        <li>Genetic predisposition exists; the risk of recurrence after one affected child increases to 3–4% and increases to ≈10% with two previous abnormal pregnancies</li>
+                        <li>Nutritional and environmental factors play a role in etiology</li>
+                        <li>Maternal periconceptional use of folic acid supplementation reduces the incidence of neural tube defects in pregnancies at risk by at least 50%</li>
+                        <li>To be effective, folic acid supplementation should be initiated before conception and continued until at least the 12th week of gestation when neurulation is complete</li>
+                    </ul>
+                    
+                    <h4>Clinical Manifestation</h4>
+                    <ul>
+                        <li>Dysfunction in skin, skeleton, gastrointestinal tract (GIT), urogenital system (UGS), and peripheral nervous system</li>
+                        <li>75% located at the lumbosacral region</li>
+                        <li>Degree of neurological deficit depends on location:
+                            <ul>
+                                <li><strong>Low sacral:</strong> bowel and bladder incontinence, perianal anesthesia</li>
+                                <li><strong>Mid-lumbar:</strong> cystic swelling leaking CSF, paraplegia, absent deep tendon reflexes, anesthesia, high incidence of lower extremity deformities (clubfeet, hip subluxation), bowel and bladder incontinence, neurogenic bladder</li>
+                                <li><strong>Upper thoracic or cervical:</strong> minimal neurologic deficit and most do not have hydrocephalus</li>
+                            </ul>
+                        </li>
+                        <li>Hydrocephalus in association with a type II Chiari defect develops in at least 80% of patients</li>
+                    </ul>
+                    
+                    <h4>Management</h4>
+                    <ul>
+                        <li>In-utero surgical closure</li>
+                        <li>Multidisciplinary approach</li>
+                        <li>Surgery: closure + shunting procedure</li>
+                        <li>Long-term management:
+                            <ul>
+                                <li>Urogenital system (UGS)</li>
+                                <li>Bowel</li>
+                                <li>Physiotherapy</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </div>
+              </section>
+
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx2teDCmW6ivSeKLQg7zF_jy7Yfg_1Gqm84_UT0PQPATsNug/viewform?usp=sf_link" class="comment-button">
+            here
+            <!-- <img src="../images/icons/whatsapp.png" alt="Image Icon"> -->
+          </a>
+        </div>
+
+        <div class="contributors-container">
+
+          <h2 class="contributors-header">Contributors</h2>
+  
+        <br>
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/woman.png" alt="Contributor 1 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">Jane Smith</h3>
+                    <p class="contributor-description">She is not a real contributor.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                        </a>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/twitter.png" alt="Social Icon 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/man.png" alt="Contributor 2 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">John Doe</h3>
+                    <p class="contributor-description">He is not a real contributor.</p>
+                    <div class="social-links">
+                      <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/linkedin.png" alt="Social Icon 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 
