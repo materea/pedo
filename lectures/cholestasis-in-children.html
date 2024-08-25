@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Cholestasis in Children</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+  <h1>Cholestasis in Children</h1>
+
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+        
+          <br>
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Bile Formation</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <p><strong>Bile</strong> is a digestive juice formed in the liver. It is produced by <strong>hepatocytes</strong> (liver cells) and is initially secreted into small channels known as <strong>bile canaliculi</strong>. From the canaliculi, bile flows into the <strong>interlobular bile ducts</strong>, which then converge to form the <strong>right and left hepatic ducts</strong>. These ducts merge to form the <strong>common hepatic duct</strong>. Bile can then either be stored in the <strong>gallbladder</strong> via the <strong>cystic duct</strong> or continue its journey through the <strong>common bile duct</strong> to be released into the <strong>duodenum</strong>, where it aids in the digestion and absorption of fats.</p>
+
+                        <!-- image here -->
+                        <div class="image-container">
+                            <img src="../figures/cholestasis-in-children (1).png" alt="" onclick="openModal(this)">
+                            <div class="caption">Bile formation</div>
+                          </div>
+                          
+                          <div id="myModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption" class="caption">Bile formation</div>
+                          </div>
+            
+        </div>
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Bilirubin Metabolism</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <p><strong>Bilirubin Formation:</strong> Bilirubin is primarily formed from the breakdown of hemoglobin in aged red blood cells. This process occurs in the <strong>reticuloendothelial system</strong>, particularly in the spleen, where hemoglobin is converted into <strong>biliverdin</strong>, which is then reduced to form bilirubin.</p>
+            
+            <p><strong>Transport of Bilirubin in Plasma:</strong> Unconjugated bilirubin, which is hydrophobic, is transported in the plasma bound to <strong>albumin</strong>. This complex prevents bilirubin from diffusing into tissues and facilitates its delivery to the liver.</p>
+            
+            <h4>Hepatic Bilirubin Transport:</h4>
+            
+            <p><strong>Hepatic Uptake:</strong> Unconjugated bilirubin bound to albumin reaches the liver, where it is taken up by hepatocytes via facilitated diffusion.</p>
+            
+            <p><strong>Conjugation:</strong> Within hepatocytes, bilirubin undergoes conjugation with <strong>glucuronic acid</strong>, catalyzed by the enzyme <strong>UDP-glucuronosyltransferase</strong>. This process converts bilirubin into water-soluble <strong>bilirubin diglucuronide</strong> (conjugated bilirubin), which can be excreted.</p>
+            
+            <p><strong>Biliary Excretion:</strong> Conjugated bilirubin is actively transported into the bile canaliculi and eventually into the bile ducts, where it is excreted into the intestines as part of bile.</p>
+            
+            <p><strong>Enterohepatic Circulation:</strong> In the intestines, some conjugated bilirubin is deconjugated by bacterial enzymes and converted into <strong>urobilinogen</strong>. A portion of urobilinogen is reabsorbed back into the portal circulation and transported to the liver, where it can be either re-excreted in bile or pass into systemic circulation and be excreted in the urine.</p>
+            
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Hepatobiliary Tree</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <p><strong>Intrahepatic Bile Ducts:</strong> The hepatobiliary tree begins within the liver with the intrahepatic bile ducts. These are small ducts that collect bile produced by <strong>hepatocytes</strong> (liver cells) and channel it into larger ducts. The smallest branches, called <strong>bile canaliculi</strong>, merge to form the <strong>interlobular bile ducts</strong>.</p>
+            
+            <p><strong>Right and Left Hepatic Ducts:</strong> The interlobular bile ducts converge to form the larger <strong>right and left hepatic ducts</strong>. These ducts drain bile from the right and left lobes of the liver, respectively.</p>
+            
+            <p><strong>Common Hepatic Duct:</strong> The right and left hepatic ducts merge outside the liver to form the <strong>common hepatic duct</strong>. This duct serves as a major conduit for bile leaving the liver.</p>
+            
+            <p><strong>Cystic Duct:</strong> The common hepatic duct connects with the <strong>cystic duct</strong>, which leads to the gallbladder. The gallbladder stores and concentrates bile between meals. The cystic duct also allows bile to flow from the gallbladder back into the bile ducts when needed.</p>
+            
+            <p><strong>Common Bile Duct:</strong> The common hepatic duct continues as the <strong>common bile duct</strong> after its junction with the cystic duct. The common bile duct runs down towards the small intestine, carrying bile for digestion.</p>
+            
+            <p><strong>Pancreatic Duct:</strong> Near its terminal portion, the common bile duct typically joins the <strong>pancreatic duct</strong>, which carries digestive enzymes from the pancreas.</p>
+            
+            <p><strong>Ampulla of Vater and Sphincter of Oddi:</strong> The common bile duct and pancreatic duct join to form the <strong>ampulla of Vater</strong>, which opens into the duodenum, the first part of the small intestine. The flow of bile and pancreatic enzymes into the duodenum is regulated by the <strong>sphincter of Oddi</strong>, a muscular valve.</p>
+            
+            <p><strong>Duodenum:</strong> Bile enters the duodenum where it aids in the emulsification of dietary fats, facilitating their digestion and absorption.</p>
+
+                        <!-- image here -->
+                        <div class="image-container">
+                            <img src="../figures/cholestasis-in-children (1).jpg" alt="" onclick="openModal(this)">
+                            <div class="caption">Hepatobiliary tree</div>
+                          </div>
+                          
+                          <div id="myModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption" class="caption">Hepatobiliary tree</div>
+                          </div>
+            
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Classifications of Cholestasis</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Obstructive Cholestasis</h4>
+
+            <ul>
+                <p>This form of cholestasis occurs due to a physical blockage in the bile ducts, preventing bile from flowing from the liver to the intestine.</p>
+            
+                <p><strong>Causes:</strong></p>
+                <ul>
+                    <li><strong>Gallstones:</strong> The most common cause, where stones block the <strong>common bile duct</strong>.</li>
+                    <li><strong>Tumors:</strong> Tumors in the bile ducts, pancreas, or gallbladder can compress the bile ducts.</li>
+                    <li><strong>Biliary Strictures:</strong> Narrowing of the bile ducts due to inflammation, injury, or surgery.</li>
+                    <li><strong>Primary Sclerosing Cholangitis (PSC):</strong> A chronic disease that leads to scarring and narrowing of the bile ducts.</li>
+                </ul>
+                
+                <p><strong>Clinical Features:</strong></p>
+                <ul>
+                    <li><strong>Jaundice:</strong> Yellowing of the skin and eyes.</li>
+                    <li><strong>Pruritus:</strong> Itching.</li>
+                    <li><strong>Dark urine and pale stools.</strong></li>
+                    <li><strong>Elevated serum alkaline phosphatase and bilirubin levels.</strong></li>
+                </ul>
+            </ul>
+
+            
+            <h4>Hepatocellular Cholestasis</h4>
+
+            
+            <p>This type occurs when there is a defect in the liver cells (<strong>hepatocytes</strong>) that impairs bile formation or secretion without any mechanical obstruction.</p>
+            
+            <ul>
+                <p><strong>Causes:</strong></p>
+                <ul>
+                    <li><strong>Drug-Induced Liver Injury (DILI):</strong> Certain medications like anabolic steroids, contraceptives, or antibiotics can impair bile secretion.</li>
+                    <li><strong>Viral Hepatitis:</strong> Inflammation due to hepatitis A, B, C, or E can disrupt bile flow.</li>
+                    <li><strong>Alcoholic Liver Disease:</strong> Chronic alcohol consumption leading to liver damage can cause cholestasis.</li>
+                    <li><strong>Intrahepatic Cholestasis of Pregnancy (ICP):</strong> A condition in pregnancy where hormones impair bile secretion.</li>
+                    <li><strong>Genetic Disorders:</strong> Conditions like Progressive Familial Intrahepatic Cholestasis (PFIC) can lead to defective bile secretion.</li>
+                </ul>
+                
+                <p><strong>Clinical Features:</strong></p>
+                <ul>
+                    <li><strong>Jaundice.</strong></li>
+                    <li><strong>Pruritus.</strong></li>
+                    <li><strong>Fatigue.</strong></li>
+                    <li><strong>Elevated liver enzymes (ALT, AST).</strong></li>
+                    <li><strong>Increased serum bile acids.</strong></li>
+                </ul>
+            </ul>
+
+            
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Pathophysiology of Cholestasis</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Hepatocellular Cholestasis</h4>
+
+            <p><strong>Mechanism:</strong> This type involves a direct impairment in bile production or secretion by <strong>hepatocytes</strong> (liver cells). The damage is primarily at the cellular level, affecting the hepatocytes' ability to secrete bile.</p>
+            
+            <p><strong>Characteristics:</strong></p>
+            <ul>
+                <li><strong>Bile Accumulation:</strong> Bile accumulates within hepatocytes and <strong>bile canaliculi</strong>, the small channels between liver cells through which bile flows.</li>
+                <li><strong>Cellular Damage:</strong> The buildup of bile causes hepatocyte injury and inflammation. Histologically, this is often seen as bile pigment deposition within hepatocytes and canaliculi.</li>
+                <li><strong>Effects:</strong> The impairment in bile production leads to elevated levels of <strong>bilirubin</strong> and <strong>bile acids</strong> in the blood, contributing to jaundice and pruritus.</li>
+                <li><strong>Examples:</strong> Conditions like <strong>drug-induced liver injury (DILI)</strong>, <strong>viral hepatitis</strong>, and <strong>intrahepatic cholestasis of pregnancy</strong>.</li>
+            </ul>
+            
+            <h4>Obstructive Cholestasis</h4>
+            
+            <p><strong>Mechanism:</strong> This type occurs due to a physical obstruction that impedes bile flow after it has been produced. The obstruction can be intrahepatic or extrahepatic.</p>
+            
+            <p><strong>Characteristics:</strong></p>
+            <ul>
+                <li><strong>Bile Plugging:</strong> Bile accumulates and forms plugs in the <strong>interlobular bile ducts</strong>. This obstruction prevents bile from flowing into the larger bile ducts and eventually into the duodenum.</li>
+                <li><strong>Portal Expansion:</strong> The obstruction leads to increased pressure in the bile ducts and portal system, resulting in portal expansion.</li>
+                <li><strong>Bile Duct Proliferation:</strong> The obstructive process stimulates <strong>bile duct proliferation</strong> (ductular reaction) as the liver attempts to compensate for the blocked bile flow.</li>
+                <li><strong>Centrilobular Injury:</strong> In severe cases, there is injury to the centrilobular regions (zone 3 of the liver acinus) due to the buildup of bile acids and increased pressure.</li>
+                <li><strong>Examples:</strong> Conditions such as <strong>gallstones</strong>, <strong>biliary strictures</strong>, <strong>primary sclerosing cholangitis (PSC)</strong>, and <strong>tumors obstructing the bile ducts</strong>.</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Etiology of Cholestasis</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Intrahepatic/Hepatocellular Cholestasis (Liver Cell Damage/Blockage of Bile Canaliculi)</h4>
+
+            <ul>
+                <li><strong>Drugs or Chemical Toxins:</strong> Medications such as <strong>anabolic steroids</strong>, <strong>contraceptives</strong>, and certain antibiotics, as well as toxins like <strong>alcohol</strong>, can impair bile secretion or cause liver damage.</li>
+                <li><strong>Dubin-Johnson Syndrome:</strong> A rare genetic disorder characterized by defective hepatic transport of <strong>conjugated bilirubin</strong>, leading to its accumulation within liver cells.</li>
+                <li><strong>Estrogens or Pregnancy:</strong> Elevated estrogen levels during pregnancy can lead to <strong>Intrahepatic Cholestasis of Pregnancy (ICP)</strong>, a condition causing bile accumulation and cholestasis.</li>
+                <li><strong>Hepatitis:</strong> Both <strong>viral hepatitis</strong> (e.g., hepatitis B and C) and <strong>chemical hepatitis</strong> (e.g., due to drugs or toxins) can cause liver inflammation and impair bile flow.</li>
+                <li><strong>Infiltrative Tumors:</strong> Tumors such as <strong>hepatocellular carcinoma</strong> or <strong>metastatic cancer</strong> can infiltrate the liver parenchyma, disrupting normal bile flow.</li>
+                <li><strong>Intrahepatic Biliary Hypoplasia or Atresia:</strong> Congenital conditions where the <strong>intrahepatic bile ducts</strong> are underdeveloped or absent, leading to impaired bile flow.</li>
+                <li><strong>Primary Biliary Cirrhosis:</strong> An autoimmune disorder characterized by the destruction of small and medium-sized <strong>bile ducts</strong> within the liver, leading to cholestasis and cirrhosis.</li>
+            </ul>
+            
+            <h4>Extrahepatic Cholestasis (Obstruction of Bile Ducts)</h4>
+
+            <p><strong>Obstruction of the Bile Lumen:</strong></p>
+            <ul>
+                <li><strong>Gallstones:</strong> Solid particles that can obstruct the bile ducts, leading to impaired bile flow.</li>
+                <li><strong>Parasitic Infestation:</strong> Conditions like <strong>hydatid disease</strong> can obstruct the bile ducts.</li>
+            </ul>
+            
+            <p><strong>Obstruction of the Wall of the Bile Duct:</strong></p>
+            <ul>
+                <li><strong>Sclerosis Cholangitis:</strong> Chronic inflammation and scarring of the bile ducts, often associated with <strong>primary sclerosing cholangitis (PSC)</strong>.</li>
+                <li><strong>Cholangiocarcinoma:</strong> Cancer of the bile ducts that can obstruct bile flow.</li>
+                <li><strong>Traumatic Stricture:</strong> Narrowing of the bile ducts due to injury or surgery.</li>
+                <li><strong>Congenital Strictures:</strong> Conditions such as <strong>biliary atresia</strong>, where bile ducts are malformed or absent, and <strong>choledochal cysts</strong>, which are congenital cystic dilations of the bile ducts.</li>
+            </ul>
+            
+            <p><strong>Examples:</strong></p>
+            <ul>
+                <li><strong>Compression Obstruction from Tumors:</strong> Tumors located near the bile ducts can compress and obstruct bile flow.</li>
+                <li><strong>Congenital Choledochal Cyst:</strong> A cystic dilation of the bile ducts that can obstruct bile flow.</li>
+                <li><strong>Extrahepatic Biliary Atresia:</strong> A congenital condition where the extrahepatic bile ducts are absent or severely obstructed, leading to cholestasis.</li>
+                <li><strong>Intraluminal Gallstones:</strong> Stones within the bile ducts that obstruct bile flow.</li>
+                <li><strong>Stenosis:</strong> Narrowing of the bile ducts postoperatively or due to inflammation.</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'>Clinical Presentation of Cholestasis </a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <ul>
+                <li><strong>Jaundice:</strong>
+                    <ul>
+                        <li>Yellowing of the skin and sclerae (white part of the eyes) due to elevated levels of serum conjugated bilirubin. Conjugated bilirubin, which is water-soluble, accumulates in the blood when bile flow is obstructed.</li>
+                    </ul>
+                </li>
+                <li><strong>Pale Stool and Dark Urine:</strong>
+                    <ul>
+                        <li><strong>Pale Stool:</strong> Occurs due to a lack of bile reaching the intestines, which results in stools that are lighter in color.</li>
+                        <li><strong>Dark Urine:</strong> Caused by the reflux of conjugated bilirubin into the bloodstream, which is then excreted in the urine, leading to darker urine.</li>
+                    </ul>
+                </li>
+                <li><strong>Pain:</strong>
+                    <ul>
+                        <li>Abdominal pain, particularly in the right upper quadrant (RUQ), can occur due to cholecystitis (inflammation of the gallbladder). The pain is often localized and may be associated with gallstones or infection.</li>
+                    </ul>
+                </li>
+                <li><strong>Fever:</strong>
+                    <ul>
+                        <li>Elevated body temperature can occur due to ascending cholangitis, an infection of the bile duct system. This condition often results from a bacterial infection that ascends from the duodenum.</li>
+                    </ul>
+                </li>
+                <li><strong>Palpable and/or Tender Gallbladder:</strong>
+                    <ul>
+                        <li>The gallbladder may be palpable and tender upon examination, especially in cases of cholecystitis or choledocholithiasis (gallstones in the bile duct).</li>
+                    </ul>
+                </li>
+                <li><strong>Hepatosplenomegaly:</strong>
+                    <ul>
+                        <li>Enlargement of both the liver (<strong>hepatomegaly</strong>) and spleen (<strong>splenomegaly</strong>) often results from portal hypertension secondary to cholestasis. The increased pressure in the portal venous system can lead to engorgement of the liver and spleen.</li>
+                    </ul>
+                </li>
+                <li><strong>Pruritus:</strong>
+                    <ul>
+                        <li>Itchy skin caused by the deposition of <strong>bile salts</strong> in the skin. Bile salts are normally excreted in bile, but when cholestasis occurs, they accumulate in the bloodstream and deposit in the skin.</li>
+                    </ul>
+                </li>
+                <li><strong>Poor Growth/Failure to Thrive (FTT):</strong>
+                    <ul>
+                        <li>Malabsorption of fats and nutrients due to impaired bile flow can lead to poor growth and weight gain in children. This may also be accompanied by anorexia (loss of appetite) and poor nutrient utilization.</li>
+                    </ul>
+                </li>
+                <li><strong>Xanthomas:</strong>
+                    <ul>
+                        <li>Deposits of <strong>cholesterol</strong> in the skin, resulting in yellowish nodules or plaques. This is due to elevated cholesterol levels in the blood.</li>
+                    </ul>
+                </li>
+                <li><strong>Finger Clubbing:</strong>
+                    <ul>
+                        <li>A rare but possible finding where the tips of the fingers become swollen and the nail beds are abnormally rounded. It can be associated with chronic liver disease or biliary cirrhosis.</li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-8'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-8'>Jaundice Classification </a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <ul>
+                <li><strong>Predominantly Unconjugated Hyperbilirubinaemia</strong></li>
+                <ul>
+                    <li><strong>Increased Bilirubin Formation:</strong>
+                        <ul>
+                            <li><strong>Haemolysis:</strong> Increased breakdown of red blood cells.</li>
+                            <li><strong>Ineffective Erythropoiesis:</strong> 
+                                <ul>
+                                    <li><strong>Megaloblastic Anaemia:</strong> A type of anemia characterized by large, abnormal red blood cells.</li>
+                                    <li><strong>Iron Deficiency:</strong> Insufficient iron leading to anemia.</li>
+                                    <li><strong>Haemoglobinopathies:</strong> Genetic disorders affecting hemoglobin.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Failure of Bilirubin Uptake:</strong> 
+                        <ul>
+                            <li><strong>Gilbert's Disease:</strong> A common, benign condition characterized by intermittent unconjugated hyperbilirubinaemia.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Failure of Bilirubin Conjugation:</strong> 
+                        <ul>
+                            <li><strong>Neonatal Jaundice:</strong> Common in newborns due to immature liver function.</li>
+                            <li><strong>Crigler-Najjar Syndrome:</strong> A rare genetic disorder affecting bilirubin conjugation.</li>
+                            <li><strong>Drug Inhibition:</strong> e.g., <strong>Chloramphenicol</strong>, which can inhibit bilirubin conjugation.</li>
+                            <li><strong>Extensive Hepatocellular Disease:</strong> e.g., <strong>hepatitis</strong>, <strong>cirrhosis</strong> affecting liver function.</li>
+                        </ul>
+                    </li>
+                </ul>
+            
+                <li><strong>Predominantly Conjugated Hyperbilirubinaemia</strong></li>
+                <ul>
+                    <li><strong>Obstructive Causes:</strong> 
+                        <ul>
+                            <li><strong>Extrahepatic Bile Duct Obstruction:</strong> e.g., <strong>gallstones</strong>, <strong>tumors</strong>, or <strong>strictures</strong> that block bile flow.</li>
+                            <li><strong>Intrahepatic Bile Duct Obstruction:</strong> e.g., <strong>primary sclerosing cholangitis (PSC)</strong> or <strong>biliary atresia</strong>.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Hepatocellular Damage:</strong> 
+                        <ul>
+                            <li><strong>Hepatitis:</strong> Inflammation of the liver due to viral or other causes.</li>
+                            <li><strong>Cirrhosis:</strong> Chronic liver disease leading to fibrosis and impaired bile flow.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Genetic Disorders:</strong> 
+                        <ul>
+                            <li><strong>Dubin-Johnson Syndrome:</strong> A rare genetic condition characterized by defective hepatic transport of conjugated bilirubin.</li>
+                            <li><strong>Rotor Syndrome:</strong> Another rare genetic disorder causing conjugated hyperbilirubinaemia with a different pathophysiology compared to Dubin-Johnson Syndrome.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-9'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-9'>Jaundice - Differential Diagnosis </a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <ol>
+                <li><strong>Once Jaundice is Recognized:</strong> It is important to determine whether hyperbilirubinemia is predominantly <strong>conjugated bilirubin (CB)</strong> or <strong>unconjugated bilirubin (UCB)</strong>.</li>
+                <li><strong>Differentiation of Hemolytic from Other Types of Jaundice:</strong> This is usually not difficult, as the clinical and laboratory features are often distinctive.</li>
+                <li><strong>Partial Biliary Obstruction:</strong> The laboratory findings are <strong>inconstant</strong> in partial biliary obstruction, and differentiation from <strong>intrahepatic cholestasis</strong> is particularly difficult.</li>
+            </ol>
+            
+        </div>
+      </section>
+
+      <section id='header-10'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-10'> </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Determining the Type of Hyperbilirubinemia</h4>
+
+            <ul>
+                <li><strong>Conjugated Bilirubin (CB):</strong> This type of bilirubin is water-soluble and indicates a problem with bile excretion. Elevated levels of conjugated bilirubin are often seen in cases of <strong>obstructive jaundice</strong> (e.g., <strong>bile duct obstruction</strong>), <strong>hepatocellular injury</strong>, or <strong>cholestasis</strong>.</li>
+                <li><strong>Unconjugated Bilirubin (UCB):</strong> This type is not water-soluble and indicates problems with bilirubin production or uptake by the liver. Elevated levels of unconjugated bilirubin are typically seen in <strong>hemolytic anemia</strong> or conditions that increase the production of bilirubin (e.g., <strong>hemolysis</strong>).</li>
+            </ul>
+            
+            <h4>Differentiating Hemolytic Jaundice from Other Types</h4>
+            
+            <ul>
+                <li><strong>Hemolytic Jaundice:</strong>
+                    <ul>
+                        <li><strong>Characteristics:</strong> Predominantly elevated unconjugated bilirubin due to increased breakdown of red blood cells.</li>
+                        <li><strong>Laboratory Findings:</strong> Elevated reticulocyte count, low haptoglobin, elevated lactate dehydrogenase (LDH), and normal or slightly elevated conjugated bilirubin levels.</li>
+                    </ul>
+                </li>
+                <li><strong>Other Types:</strong>
+                    <ul>
+                        <li><strong>Hepatocellular Jaundice:</strong>
+                            <ul>
+                                <li><strong>Characteristics:</strong> Elevated conjugated and sometimes unconjugated bilirubin due to liver cell damage. Look for elevated liver enzymes (ALT, AST) and possible presence of viral markers or evidence of liver inflammation.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Obstructive Jaundice:</strong>
+                            <ul>
+                                <li><strong>Characteristics:</strong> Predominantly elevated conjugated bilirubin with associated clinical signs of obstruction (e.g., pale stools, dark urine). Imaging studies may reveal bile duct obstruction.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h4>Differentiating Partial Biliary Obstruction from Intrahepatic Cholestasis</h4>
+            
+            <ul>
+                <li><strong>Partial Biliary Obstruction:</strong>
+                    <ul>
+                        <li><strong>Characteristics:</strong> Involves obstruction of the bile duct lumen, which can lead to the accumulation of bile and increased conjugated bilirubin levels.</li>
+                        <li><strong>Laboratory Findings:</strong> Elevated conjugated bilirubin, alkaline phosphatase, and gamma-glutamyl transferase (GGT). Imaging studies (e.g., ultrasound, CT scan) may show dilated bile ducts or obstruction.</li>
+                    </ul>
+                </li>
+                <li><strong>Intrahepatic Cholestasis:</strong>
+                    <ul>
+                        <li><strong>Characteristics:</strong> Results from impairment in bile formation or secretion within the liver. Conjugated bilirubin accumulates within the liver and bloodstream.</li>
+                        <li><strong>Laboratory Findings:</strong> Elevated conjugated bilirubin and bile acids. Liver function tests may show elevated transaminases and alkaline phosphatase. Differentiation from obstructive jaundice may be challenging; imaging and liver biopsy may be needed to confirm the diagnosis.</li>
+                    </ul>
+                </li>
+            </ul>
+            
+        </div>
+      </section>
+
+
+
+      <section id='header-11'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-11'>Diagnosis of Jaundice </a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <p>Accurate diagnosis of jaundice involves a comprehensive approach that includes history-taking, physical examination, and a series of laboratory and imaging tests:</p>
+            
+            <h4>1. History and Examination</h4>
+            
+            <p><strong>History:</strong></p>
+            <ul>
+                <li>Duration and onset of jaundice.</li>
+                <li>Associated symptoms (e.g., <strong>pain</strong>, <strong>itching</strong>, <strong>dark urine</strong>, <strong>pale stools</strong>).</li>
+                <li>Medical history (e.g., <strong>liver disease</strong>, <strong>hemolytic disorders</strong>, recent <strong>drug use</strong>, <strong>travel history</strong>).</li>
+                <li>Family history of <strong>liver disease</strong> or <strong>genetic conditions</strong>.</li>
+            </ul>
+            
+            <p><strong>Examination:</strong></p>
+            <ul>
+                <li>Inspection for jaundice in the <strong>skin</strong> and <strong>sclera</strong>.</li>
+                <li>Palpation for <strong>hepatomegaly</strong>, <strong>splenomegaly</strong>, and <strong>tenderness</strong> in the right upper quadrant.</li>
+                <li>Evaluation for signs of <strong>chronic liver disease</strong> (e.g., <strong>ascites</strong>, <strong>spider angiomas</strong>).</li>
+            </ul>
+            
+            <h4>2. Urine and Stools</h4>
+            
+            <p><strong>Urine:</strong></p>
+            <ul>
+                <li><strong>Color:</strong> Dark urine suggests elevated conjugated bilirubin.</li>
+                <li><strong>Tests:</strong> Urine dipstick may show bilirubin and <strong>urobilinogen</strong> levels.</li>
+            </ul>
+            
+            <p><strong>Stools:</strong></p>
+            <ul>
+                <li><strong>Color:</strong> Pale or clay-colored stools indicate a lack of bile reaching the intestines.</li>
+            </ul>
+            
+            <h4>3. Serum Biochemistry</h4>
+            
+            <p><strong>Bilirubin:</strong></p>
+            <ul>
+                <li><strong>Total Bilirubin:</strong> Measures both conjugated and unconjugated bilirubin.</li>
+                <li><strong>Direct (Conjugated) Bilirubin:</strong> Elevated in obstructive or hepatocellular cholestasis.</li>
+                <li><strong>Indirect (Unconjugated) Bilirubin:</strong> Elevated in hemolytic jaundice.</li>
+            </ul>
+            
+            <p><strong>Transaminases:</strong></p>
+            <ul>
+                <li><strong>AST (Aspartate Aminotransferase)</strong> and <strong>ALT (Alanine Aminotransferase):</strong> Elevated in hepatocellular damage or inflammation.</li>
+            </ul>
+            
+            <p><strong>Albumin:</strong></p>
+            <ul>
+                <li>Levels may be decreased in chronic liver disease or severe liver dysfunction.</li>
+            </ul>
+            
+            <p><strong>Alkaline Phosphatase:</strong></p>
+            <ul>
+                <li>Elevated in cholestasis and biliary obstruction.</li>
+            </ul>
+            
+            <h4>4. Hematology</h4>
+            
+            <p><strong>Hemoglobin:</strong></p>
+            <ul>
+                <li>Low levels may indicate anemia, which could be associated with hemolysis.</li>
+            </ul>
+            
+            <p><strong>White Cell Count (WCC):</strong></p>
+            <ul>
+                <li>Elevated WCC may indicate infection or inflammation.</li>
+            </ul>
+            
+            <p><strong>Platelets:</strong></p>
+            <ul>
+                <li>Low platelet count can be a sign of <strong>portal hypertension</strong> or liver dysfunction.</li>
+            </ul>
+            
+            <p><strong>Prothrombin Time (PT):</strong></p>
+            <ul>
+                <li>Prolonged PT suggests impaired liver function. Vitamin K may be administered if deficiency is suspected.</li>
+            </ul>
+            
+            <h4>5. Abdominal Ultrasound and Chest X-Ray</h4>
+            
+            <p><strong>Abdominal Ultrasound:</strong></p>
+            <ul>
+                <li>Evaluates <strong>liver size</strong>, presence of <strong>gallstones</strong>, <strong>bile duct dilation</strong>, and possible obstructions.</li>
+            </ul>
+            
+            <p><strong>Chest X-Ray:</strong></p>
+            <ul>
+                <li>May be useful to assess for possible <strong>metastases</strong> or complications in the context of jaundice.</li>
+            </ul>
+            
+            <h4>6. Further Investigations</h4>
+            
+            <p>Determined by the Basis of the Jaundice:</p>
+            <ul>
+                <li><strong>Pre-Hepatic (Hemolytic):</strong> Additional tests may include <strong>reticulocyte count</strong>, <strong>haptoglobin</strong>, and <strong>LDH</strong>.</li>
+                <li><strong>Hepatic (Hepatocellular):</strong> Liver biopsy or imaging studies to assess liver parenchyma.</li>
+                <li><strong>Extra-Hepatic (Obstructive):</strong> Further imaging such as <strong>MRI</strong> or <strong>CT scans</strong> to visualize the bile ducts and any obstructions.</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-12'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-12'>Cholestasis Diagnosis </a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <p>1. <strong>Elevated Serum Bilirubin:</strong></p>
+            <ul>
+                <li><strong>Total Bilirubin:</strong> Elevated levels of serum bilirubin are indicative of cholestasis. The proportion of conjugated bilirubin (direct bilirubin) increases in cholestasis.</li>
+                <li><strong>Serum Bilirubin Levels:</strong> Elevated serum bilirubin levels correlate with the duration and severity of cholestasis. Serum bilirubin levels typically return to normal once the cholestasis is relieved.</li>
+            </ul>
+            
+            <p>2. <strong>Raised Serum Alkaline Phosphatase:</strong></p>
+            <ul>
+                <li><strong>Alkaline Phosphatase (ALP):</strong> Levels rise significantly in cholestasis, often exceeding three times the upper limit of normal. This enzyme is particularly elevated in cases of bile duct obstruction and cholestasis.</li>
+            </ul>
+            
+            <p>3. <strong>Liver Function Tests (LFTs):</strong></p>
+            <ul>
+                <li><strong>Aminotransferases:</strong> <strong>AST (Aspartate Aminotransferase)</strong> and <strong>ALT (Alanine Aminotransferase)</strong> are usually mildly raised. Significant elevations are more indicative of hepatocellular injury rather than cholestasis alone.</li>
+                <li><strong>Gamma-Glutamyl Transferase (GGT):</strong> Elevated GGT levels are often seen in cholestasis and are useful in distinguishing between hepatobiliary and non-hepatobiliary causes of elevated ALP.</li>
+            </ul>
+            
+            <p>4. <strong>Increased Urinary Bilirubin:</strong></p>
+            <ul>
+                <li><strong>Bilirubin in Urine:</strong> Increased levels of bilirubin in urine are indicative of elevated conjugated bilirubin in the bloodstream, which can be due to cholestasis. This finding is consistent with cholestasis but not with hemolytic jaundice.</li>
+            </ul>
+            
+            <p>5. <strong>Urinary Urobilinogen:</strong></p>
+            <ul>
+                <li><strong>Urobilinogen Production:</strong> Urobilinogen is produced from bilirubin in the intestines and excreted in the urine.</li>
+                <li><strong>Absence in Case of Obstruction:</strong> In cases of complete biliary obstruction, there is an absence of urobilinogen in the urine due to the lack of bile reaching the intestines.</li>
+            </ul>
+            
+
+            <table class="note-table">
+                <thead>
+                    <tr>
+                        <th colspan="4">Laboratory Findings</th>
+                    </tr>
+                    <tr>
+                        <th>Serum/Blood</th>
+                        <th>Pre-Hepatic</th>
+                        <th>Hepatic</th>
+                        <th>Extra Hepatic</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bilirubin (micromoles/l)</td>
+                        <td>Increased</td>
+                        <td>Increased</td>
+                        <td>Increased</td>
+                    </tr>
+                    <tr>
+                        <td>AST (I.U.)</td>
+                        <td>Normal</td>
+                        <td>Increased</td>
+                        <td>Increased</td>
+                    </tr>
+                    <tr>
+                        <td>ALT (I.U.)</td>
+                        <td>Normal</td>
+                        <td>Increased</td>
+                        <td>Increased</td>
+                    </tr>
+                    <tr>
+                        <td>ALP (I.U.)</td>
+                        <td>Normal</td>
+                        <td>Increased</td>
+                        <td>Increased</td>
+                    </tr>
+                    <tr>
+                        <td>Gamma GT (I.U.)</td>
+                        <td>Normal</td>
+                        <td>Increased slightly</td>
+                        <td>Increased</td>
+                    </tr>
+                    <tr>
+                        <td>Albumin (g/l)</td>
+                        <td>Normal</td>
+                        <td>Decreased</td>
+                        <td>Decreased</td>
+                    </tr>
+                    <tr>
+                        <td>Cholesterol</td>
+                        <td>Normal</td>
+                        <td>Increased</td>
+                        <td>Increased</td>
+                    </tr>
+                    <tr>
+                        <td>Reticulocytes (%)</td>
+                        <td>Increased</td>
+                        <td>Normal</td>
+                        <td>Normal</td>
+                    </tr>
+                    <tr>
+                        <td>Prothrombin Time (seconds)</td>
+                        <td>Normal</td>
+                        <td>Increased</td>
+                        <td>Increased</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4>Urinary Changes</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Urinary Changes</th>
+                        <th>Pre-Hepatic</th>
+                        <th>Hepatic</th>
+                        <th>Extra Hepatic</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bilirubin (bilirubinuria)</td>
+                        <td>Absent</td>
+                        <td>Increased</td>
+                        <td>Increased</td>
+                    </tr>
+                    <tr>
+                        <td>Urobilinogen (urobilinogenuria)</td>
+                        <td>Increased or normal</td>
+                        <td>Decreased/Absent</td>
+                        <td>Decreased</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <h4>Faecal Changes</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Faecal Changes</th>
+                        <th>Pre-Hepatic</th>
+                        <th>Hepatic</th>
+                        <th>Extra Hepatic</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Stercobilinogen</td>
+                        <td>Normal</td>
+                        <td>Decreased</td>
+                        <td>Decreased</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+
+            <br>
+
+            <h4>Obstructive Jaundice Lab Findings</h4>
+            <ul>
+                <li><strong>Serum Bilirubin:</strong> Increased</li>
+                <li><strong>Fecal Urobilinogen:</strong> Decreased (incomplete obstruction)</li>
+                <li><strong>Fecal Urobilinogen:</strong> Absence (complete obstruction)</li>
+                <li><strong>Urobilinogenuria:</strong> Absent in complete obstructive jaundice</li>
+                <li><strong>Bilirubinuria:</strong> Increased</li>
+                <li><strong>ALP:</strong> Increased</li>
+                <li><strong>Cholesterol:</strong> Increased</li>
+            </ul>
+            
+            <h4>Obstructive Jaundice (Extrahepatic)</h4>
+            <h5>Serum / Blood</h5>
+            <ul>
+                <li><strong>Bilirubin (micromoles/l):</strong> 100-500; normal range 3-17</li>
+                <li><strong>AST (I.U.):</strong> 35-400; normal range &lt;35</li>
+                <li><strong>ALP (I.U.):</strong> &gt;500; normal range &lt;250</li>
+                <li><strong>Gamma GT (I.U.):</strong> 30-50; normal range 15-40</li>
+                <li><strong>Albumin (g/l):</strong> 30-50; normal range 40-50</li>
+                <li><strong>Reticulocytes (%):</strong> &lt;1; normal range &lt;1</li>
+                <li><strong>Prothrombin Time (secs):</strong> 15-45; normal range 13-15 (falls with parenteral vitamin K)</li>
+            </ul>
+            
+            <h4>Hepatic Jaundice</h4>
+            <h5>Serum / Blood</h5>
+            <ul>
+                <li><strong>Bilirubin (micromoles/l):</strong> 50-250; normal range 3-17</li>
+                <li><strong>AST (I.U.):</strong> 300-3000; normal range &lt;35</li>
+                <li><strong>ALP (I.U.):</strong> &lt;250-700; normal range &lt;250</li>
+                <li><strong>Gamma GT (I.U.):</strong> 15-200; normal range 15-40</li>
+                <li><strong>Albumin (g/l):</strong> 20-50; normal range 40-50</li>
+                <li><strong>Reticulocytes (%):</strong> &lt;1; normal range &lt;1</li>
+                <li><strong>Prothrombin Time (secs):</strong> 15-45; normal range 13-15 (remains 15-45 with parenteral vitamin K)</li>
+            </ul>
+            
+            <h4>Hemolytic Jaundice (Pre-Hepatic)</h4>
+            <h5>Serum / Blood</h5>
+            <ul>
+                <li><strong>Bilirubin (micromoles/l):</strong> 50-150; normal range 3-17</li>
+                <li><strong>AST (I.U.):</strong> &lt;35; normal range &lt;35</li>
+                <li><strong>ALP (I.U.):</strong> &lt;250; normal range &lt;250</li>
+                <li><strong>Gamma GT (I.U.):</strong> 15-40; normal range 15-40</li>
+                <li><strong>Albumin (g/l):</strong> 40-50; normal range 40-50</li>
+                <li><strong>Reticulocytes (%):</strong> 10-30; normal range &lt;1</li>
+                <li><strong>Prothrombin Time (secs):</strong> 13-15; normal range 13-15</li>
+            </ul>
+            
+            <h5>Urinary Changes</h5>
+            <ul>
+                <li><strong>Bilirubin:</strong> Absent</li>
+                <li><strong>Urobilinogen:</strong> Increased or normal</li>
+            </ul>
+            
+            <h5>Faecal Changes</h5>
+            <ul>
+                <li><strong>Stercobilinogen:</strong> Normal</li>
+            </ul>
+            
+            <h4>Proportion of Conjugated Bilirubin to Total Raised Bilirubin</h4>
+            <ul>
+                <li><strong>20-40%:</strong> More suggestive of hepatic than posthepatic jaundice</li>
+                <li><strong>40-60%:</strong> Occurs in either hepatic or posthepatic causes</li>
+                <li><strong>&gt;50%:</strong> More suggestive of posthepatic than hepatic jaundice</li>
+                <li><strong>&lt;20%:</strong> Secondary to hemolysis or constitutional causes (e.g., Gilbert's disease, Crigler-Najjar syndrome)</li>
+            </ul>
+            
+            <h4>Identification of Cause</h4>
+            <ul>
+                <li><strong>Dilated ducts on ultrasound:</strong> Percutaneous transhepatic cholangiography</li>
+                <li><strong>Undilated ducts on ultrasound:</strong> Endoscopic retrograde cholangiopancreatography</li>
+                <li><strong>Needle biopsy of the liver:</strong> To assess for specific hepatic conditions</li>
+            </ul>
+
+            
+
+                        <!-- image here -->
+                        <div class="image-container">
+                            <img src="../figures/cholestasis-in-children (2).jpg" alt="" onclick="openModal(this)">
+                            <div class="caption">...</div>
+                          </div>
+                          
+                          <div id="myModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption" class="caption">...</div>
+                          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx2teDCmW6ivSeKLQg7zF_jy7Yfg_1Gqm84_UT0PQPATsNug/viewform?usp=sf_link" class="comment-button">
+            here
+            <!-- <img src="../images/icons/whatsapp.png" alt="Image Icon"> -->
+          </a>
+        </div>
+
+        <div class="contributors-container">
+
+          <h2 class="contributors-header">Contributors</h2>
+  
+        <br>
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/woman.png" alt="Contributor 1 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">Jane Smith</h3>
+                    <p class="contributor-description">She is not a real contributor.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                        </a>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/twitter.png" alt="Social Icon 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/man.png" alt="Contributor 2 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">John Doe</h3>
+                    <p class="contributor-description">He is not a real contributor.</p>
+                    <div class="social-links">
+                      <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/linkedin.png" alt="Social Icon 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 
