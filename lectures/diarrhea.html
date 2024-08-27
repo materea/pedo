@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Diarrhea</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+  <h1>Diarrhea</h1>
+
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+        
+          <br>
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li><b>Definitions</b> of diarrhea include:</li>
+                <ul>
+                    <li><b>Increases</b> in volume or fluidity of stools</li>
+                    <li><b>Changes</b> in consistency, and increased frequency of defecation</li>
+                </ul>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Epidemiology</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li>One of the leading causes of <b>morbidity</b> and <b>mortality</b></li>
+                <li>A child may have more than <b>3 episodes</b> in a year</li>
+                <li>The major cause of death (80%) is <b>dehydration</b>—resulting from fluid and electrolyte loss in stools</li>
+                <li>It is an important cause of <b>malnutrition</b> due to reduced intake, increased loss, and increased requirements</li>
+            </ul>
+            
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Risk Factors</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li><b>Route of transmission</b></li>
+                <ul>
+                    <li><b>Fecal-oral route</b> – ingestion of contaminated water, food, and direct contact with feces</li>
+                    <li><b>Poor hygiene</b> and food handling</li>
+                    <li>Allowing an infant to crawl around and play where human or animal fecal material is present</li>
+                </ul>
+                <li><b>Risk factors that predispose to diarrhea</b></li>
+                <ul>
+                    <li>Lack of <b>exclusive breastfeeding</b> for 4-6 months</li>
+                    <li>Use of <b>infant feeding bottles</b></li>
+                    <li>Drinking water contaminated with feces</li>
+                    <li>Failing to wash hands after defecation</li>
+                    <li>Poor fecal disposal</li>
+                </ul>
+                <li><b>Host factors</b></li>
+                <ul>
+                    <li>Lack of exclusive breastfeeding</li>
+                    <li><b>Malnutrition</b></li>
+                    <li><b>Immunodeficiency</b> or suppression</li>
+                    <li><b>Age</b> – common in the first 2 years (6-11 months) due to decreasing maternal antibodies, lack of active immunity, and introduction of contaminated food</li>
+                </ul>
+                <li><b>Season</b></li>
+                <ul>
+                    <li><b>Peaks</b></li>
+                    <ul>
+                        <li>Bacterial infections occur more in the <b>warm season</b></li>
+                        <li>Viral diarrhea occurs more in <b>winter</b></li>
+                        <li>Viral diarrhea occurs throughout the year in the tropics</li>
+                    </ul>
+                </ul>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Classification</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li><b>Acute diarrhea</b>: lasts a few days</li>
+                <li><b>Persistent diarrhea</b>: lasts at least 14 days</li>
+                <li><b>Chronic diarrhea</b>: lasts more than 4 weeks and is due to a chronic illness</li>
+                <li><b>Dysentery</b>: diarrhea with visible blood in stool</li>
+                <li><b>Toddler’s diarrhea</b>: recurrent episodes of mild to moderate diarrhea of variable duration in toddlers, with no identifiable cause and no associated constitutional symptoms</li>
+                <li><b>Traveler’s diarrhea</b>: caused by pathogenic organisms in contaminated food</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Pathophysiologic Mechanisms of Diarrhea</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <p>Diarrhea can result from various pathophysiologic mechanisms affecting the gastrointestinal tract. The following are key mechanisms that lead to diarrhea:</p>
+            
+            <h5>Stimulation of Intestinal Secretions:</h5>
+            <ul>
+                <li><b>Secretory Diarrhea:</b> Caused by toxins that stimulate the secretion of electrolytes and water into the intestinal lumen without damage to the mucosa.</li>
+                <ul>
+                    <li>Examples: <b>Vibrio cholerae</b> (cholera), <b>Enterotoxigenic E. coli</b> (ETEC)</li>
+                </ul>
+            </ul>
+            
+            <h5>Mucosal Damage:</h5>
+            <ul>
+                <li><b>By Adherence:</b> Pathogens attach to the intestinal mucosa, leading to impaired absorption and diarrhea.</li>
+                <ul>
+                    <li>Examples: <b>Enteroadherent E. coli</b>, <b>Giardia lamblia</b>, <b>Cryptosporidium</b></li>
+                </ul>
+                <li><b>By Invasion:</b> Pathogens invade and damage the intestinal mucosa, leading to inflammatory diarrhea.</li>
+                <ul>
+                    <li>Examples: <b>Shigella</b>, <b>Enteroinvasive E. coli</b> (EIEC), <b>Campylobacter</b>, <b>Salmonella</b></li>
+                </ul>
+            </ul>
+            
+            <h5>Increased Osmolality of Intestinal Luminal Content:</h5>
+            <ul>
+                <li><b>Osmotic Diarrhea:</b> Occurs when non-absorbable substances in the intestinal lumen draw water into the bowel, increasing stool volume.</li>
+                <ul>
+                    <li>Examples: Malabsorption syndromes, ingestion of osmotic agents</li>
+                </ul>
+            </ul>
+            
+            <h5>Abnormal Intestinal Motility:</h5>
+            <p>Abnormalities in the motility of the intestines can lead to either rapid transit, reducing absorption, or slow transit, promoting bacterial overgrowth and diarrhea.</p>
+            
+            <h5>Ion Transport Defect:</h5>
+            <p>Defects in the transport of ions across the intestinal epithelium can lead to either reduced absorption or increased secretion of fluids, resulting in diarrhea.</p>
+            
+            <p>These mechanisms often overlap and contribute to the clinical presentation of various diarrheal diseases.</p>
+            
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Most Important Causes of Acute Diarrhea</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <ul>
+                <li><b>Virus:</b> <br>
+                    <ul>
+                        <li><b>Rotavirus</b></li>
+                    </ul>
+                </li>
+                <li><b>Bacteria:</b> <br>
+                    <ul>
+                        <li><b>Enterotoxigenic E. coli (ETEC)</b></li>
+                        <li><b>Shigella</b></li>
+                        <li><b>Campylobacter jejuni</b></li>
+                    </ul>
+                </li>
+                <li><b>Protozoa:</b> <br>
+                    <ul>
+                        <li><b>Cryptosporidium</b></li>
+                        <li><b>Yersinia enterocolitica</b></li>
+                    </ul>
+                </li>
+            </ul>
+            
+
+            <h4>Organisms that Invade Mucosa</h4>
+            <ul>
+                <li><b>Shigella</b></li>
+                <li><b>Enteroinvasive E. coli</b> (EIEC)</li>
+                <li><b>Campylobacter jejuni</b></li>
+                <li><b>Salmonella</b></li>
+                <li><b>Entamoeba histolytica</b></li>
+            </ul>
+            
+            <h4>Other Conditions Causing or Associated with Diarrhea</h4>
+            <ul>
+                <li><b>Diseases associated with diarrhea:</b></li>
+                <ul>
+                    <li><b>Malaria</b></li>
+                    <li><b>Measles</b></li>
+                    <li><b>Acute Respiratory Infections (ARI)</b></li>
+                </ul>
+                <li><b>Drugs</b></li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'> Clinical Features</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li><b>Diarrhea:</b> sudden onset, typically subsides in <b>3-5 days</b></li>
+                <li><b>Vomiting:</b> common</li>
+                <li><b>Prodromal illness:</b> may suggest viral etiology</li>
+                <li><b>Fever:</b> no diagnostic significance</li>
+                <li><b>Abdominal pain, blood, mucus:</b> possible invasive agent</li>
+                <li><b>Signs:</b> dehydration, malnutrition</li>
+            </ul>
+            
+            <section id='heading-7-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-7-1'>Assessment of Dehydration</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <p>Look for any <b>high-risk factors</b>:</p>
+                    <ul>
+                        <li><b>Infants</b></li>
+                        <li><b>Discontinuation of breastfeeding</b></li>
+                        <li><b>Frequent stooling</b> (&gt;8 stools/day)</li>
+                        <li><b>Severe malnutrition</b></li>
+                    </ul>
+                    <p>Use <b>recent weight loss</b> as a percentage of total body weight if records are available, or assess the presence and severity of dehydration based on <b>clinical signs</b>.</p>
+                    
+
+                    <table class="note-table">
+                        <thead>
+                            <tr>
+                                <th colspan="5">Clinical Signs of Dehydration</th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th>None</th>
+                                <th>Mild</th>
+                                <th>Moderate</th>
+                                <th>Severe</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>General Appearance*</b></td>
+                                <td>Well, Alert</td>
+                                <td>Alert</td>
+                                <td>Restless, Irritable</td>
+                                <td>Lethargic, Drowsy or Unconscious</td>
+                            </tr>
+                            <tr>
+                                <td><b>Eyes</b></td>
+                                <td>Normal</td>
+                                <td>Normal</td>
+                                <td>Sunken</td>
+                                <td>Grossly Sunken</td>
+                            </tr>
+                            <tr>
+                                <td><b>Tears*</b></td>
+                                <td>Present</td>
+                                <td>Present</td>
+                                <td>Reduced</td>
+                                <td>Absent</td>
+                            </tr>
+                            <tr>
+                                <td><b>Anterior Fontanelle</b></td>
+                                <td>Normal</td>
+                                <td>Normal</td>
+                                <td>Depressed</td>
+                                <td>Sunken</td>
+                            </tr>
+                            <tr>
+                                <td><b>Mucous Membrane*</b></td>
+                                <td>Moist</td>
+                                <td>Moist</td>
+                                <td>Dry</td>
+                                <td>Very Dry</td>
+                            </tr>
+                            <tr>
+                                <td><b>Thirst*</b></td>
+                                <td>Normal</td>
+                                <td>Thirsty</td>
+                                <td>Thirsty, Drinks Eagerly</td>
+                                <td>Drinks Poorly or Unable to Drink</td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Skin Turgor</b></td>
+                                <td>Normal</td>
+                                <td>Normal</td>
+                                <td>Returns Slowly (&ge;2s)</td>
+                                <td>Returns Very Slowly (or Tenting &gt;2s)</td>
+                            </tr>
+                            <tr>
+                                <td><b>Capillary Refill* (Perfusion) + Extremities</b></td>
+                                <td>Normal </td>
+                                <td>Normal</td>
+                                <td>Delayed (2-4s)</td>
+                                <td>Delayed ++ (&gt;4s) + Cold Limbs</td>
+                            </tr>
+
+                            <tr>
+                                <td><b>Pulse Volume</b></td>
+                                <td>Normal</td>
+                                <td>Normal</td>
+                                <td>Weak</td>
+                                <td>Feeble or Impalpable</td>
+                            </tr>
+                            <tr>
+                                <td><b>Pulse Rate</b></td>
+                                <td>Normal</td>
+                                <td>Normal</td>
+                                <td>Increased</td>
+                                <td>Increased</td>
+                            </tr>
+                            <tr>
+                                <td><b>Blood Pressure</b></td>
+                                <td>Normal</td>
+                                <td>Normal</td>
+                                <td>Normal or Decreased</td>
+                                <td>Decreased or Unrecordable</td>
+                            </tr>
+                            <tr>
+                                <td><b>Respiration</b></td>
+                                <td>Normal</td>
+                                <td>Normal</td>
+                                <td>Increased</td>
+                                <td>Rapid & Deep</td>
+                            </tr>
+                            <tr>
+                                <td><b>Urine Output</b></td>
+                                <td>Normal</td>
+                                <td>Normal</td>
+                                <td>Decreased</td>
+                                <td>Decreased or Absent</td>
+                            </tr>
+                            <tr>
+                                <td><b>Percentage Deficit</b></td>
+                                <td><b>&lt;3%</b></td>
+                                <td><b>3-5%</b></td>
+                                <td><b>6-9%</b></td>
+                                <td><b>10% or more</b></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                                       
+<br>
+
+                <h4>High Risk Factors for Dehydration in a Child with Diarrhea</h4>
+                <ul>
+                    <li><b>Age below 12 months</b></li>
+                    <li><b>Discontinuation of breastfeeding</b></li>
+                    <li><b>Frequent stools</b> (&gt;8/day)</li>
+                    <li><b>Vomiting</b> ++</li>
+                    <li><b>Severe malnutrition</b></li>
+                </ul>
+
+
+                </div>
+              </section>
+
+
+        </div>
+      </section>
+
+      <section id='header-8'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-8'> Complications of Diarrhea</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+                <h4>Oliguria:</h4>
+                <ul>
+                    <li><b>Acute Renal Failure:</b> Severe dehydration and fluid loss from diarrhea can lead to decreased kidney perfusion and acute renal failure.</li>
+                </ul>
+
+                <h4>Electrolyte Imbalance:</h4>
+                <ul>
+                    <li><b>Decreased Potassium (Hypokalemia):</b> Due to loss of potassium in stool.</li>
+                    <li><b>Decreased Bicarbonate (Hypobicarbonatemia):</b> Resulting from loss of bicarbonate and metabolic acidosis.</li>
+                    <li><b>Hypo- or Hypernatremia:</b> Imbalances in sodium levels can occur due to fluid loss or replacement therapy.</li>
+                </ul>
+
+                <h4>Lactose Intolerance:</h4>
+                <ul>
+                    <li><b>Secondary Lactose Intolerance:</b> Temporary or persistent lactose intolerance may develop due to damage to the intestinal mucosa, affecting lactase enzyme production.</li>
+                </ul>
+
+                <h4>Malnutrition:</h4>
+                <ul>
+                    <li><b>Chronic or severe diarrhea:</b> Can lead to poor absorption of nutrients and subsequent malnutrition.</li>
+                </ul>
+
+                <h4>Death:</h4>
+                <p>In severe cases, complications from dehydration, electrolyte imbalance, and malnutrition can be life-threatening, particularly in vulnerable populations like young children and the elderly.</p>
+
+        </div>
+      </section>
+
+      <section id='header-9'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-9'>Investigations for Diarrhea </a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <ul>
+                <li><b>Electrolyte & Urea:</b> To assess electrolyte imbalances and kidney function.</li>
+                <li><b>Full Blood Count (FBC) / Microscopy, Culture, and Sensitivity (M/C/S):</b> To evaluate for infection and identify potential pathogens.</li>
+                <li><b>Blood Culture:</b> To detect bacteremia or septicemia in severe cases.</li>
+                <li><b>Blood Gas Analysis:</b> For assessing acid-base status, especially in severe cases or if clinically acidotic.</li>
+                <li><b>Stool Examination:</b>
+                    <ul>
+                        <li><b>Microscopy, Culture, and Sensitivity (M/C/S):</b> To identify pathogens and determine appropriate treatment.</li>
+                        <li><b>Reducing Substances:</b> To check for malabsorption, such as in carbohydrate malabsorption syndromes.</li>
+                    </ul>
+                </li>
+                <li><b>Urine Culture:</b> To rule out urinary tract infections, which can sometimes present with symptoms similar to gastrointestinal infections.</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-10'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-10'>Management Objectives </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+                <li><b>Prevent dehydration</b></li>
+                <li><b>Correct dehydration</b></li>
+                <li><b>Maintain or improve nutrition</b></li>
+                <li><b>Treat aetiological agents</b> if any</li>
+            </ul>
+            
+            <h4>Prevention of Dehydration</h4>
+            <ul>
+                <li><b>Advise unrestricted oral fluids</b></li>
+                <li><b>Continue breastfeeding</b></li>
+                <li><b>Prescribe 10ml/kg of ORS</b> after each watery stool passed</li>
+                <li><b>Zn 10-20mg/day</b></li>
+                <li><b>Educate mother:</b> personal hygiene, immunization, homemade SSS</li>
+            </ul>
+            
+            <h4>Correction of Dehydration</h4>
+            <p><b>Note:</b></p>
+            <ul>
+                <li>Rehydration can be achieved either:</li>
+                <ul>
+                    <li><b>Orally (ORT)</b></li>
+                    <li><b>Intravenous route</b></li>
+                </ul>
+                <li><b>ORT is used for most cases</b></li>
+                <li><b>Rehydration (correction of deficit)</b> is achieved in <b>4-6 hours</b>.</li>
+            </ul>
+            
+
+
+            <br>
+
+            <table class="note-table">
+                <thead>
+                    <tr>
+                        <th colspan="3">Standard ORS Solutions</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>New</th>
+                        <th>Old</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>Na*</b></td>
+                        <td>75 mmol/L (<b>2.6 g/L</b>)</td>
+                        <td>90 mmol/L (<b>3.5 g/L</b>)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Cl*</b></td>
+                        <td>65 mmol/L (<b>1.5 g/L</b>)</td>
+                        <td>80 mmol/L (<b>2.5 g/L</b>)</td>
+                    </tr>
+                    <tr>
+                        <td><b>K</b></td>
+                        <td>20 mmol/L (<b>1.5 g/L</b>)</td>
+                        <td>20 mmol/L (<b>1.5 g/L</b>)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Glucose* (anhydrous)</b></td>
+                        <td>75 mmol/L (<b>13.5 g/L</b>)</td>
+                        <td>111 mmol/L (<b>20 g/L</b>)</td>
+                    </tr>
+                    <tr>
+                        <td><b>TriNa Citrate</b></td>
+                        <td>10 mmol/L (<b>2.9 g/L</b>)</td>
+                        <td>10 mmol/L (<b>2.9 g/L</b>)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Osmolality*</b></td>
+                        <td><b>245</b></td>
+                        <td><b>310</b></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <br>
+
+            <h4>Rehydration</h4>
+
+            <h5>Mild Dehydration</h5>
+            <ul>
+                <li><b>30-50 ml/kg of ORS</b> over <b>4 hours</b></li>
+            </ul>
+            
+            <h5>Moderate Dehydration</h5>
+            <ul>
+                <li><b>60-90 ml/kg of ORS</b> over <b>4 hours</b></li>
+            </ul>
+            
+            <p><b>Re-assess after 4 hours</b></p>
+
+            
+            <h4>ORT is Inappropriate for</h4>
+
+            <ul>
+                <li><b>Initial treatment of severe dehydration</b> with signs of shock</li>
+                <li><b>Patients with paralytic ileus</b> or marked abdominal distention</li>
+                <li><b>Patients unable to drink</b> (However, ORS solution can be given to such patients through an N/G tube if IV is not possible)</li>
+            </ul>
+            
+
+            <h4>Intravenous Therapy (IVT)</h4>
+
+            <ul>
+                <li><b>Mainly used for initial treatment of severe (life-threatening) dehydration,</b> to rapidly restore blood volume and correct shock.</li>
+                <li><b>In severe dehydration with shock:</b>
+                    <ul>
+                        <li>Give <b>20-30 ml/kg IV boluses</b> of <b>Ringer’s lactate</b> or <b>normal saline</b> until organ perfusion is restored. Then continue rehydration with ORT.</li>
+                    </ul>
+                </li>
+                <li><b>If the child is not able to drink:</b>
+                    <ul>
+                        <li>Continue rehydration with IVT using <b>0.45% saline in 5% dextrose</b> (or <b>0.18% saline in 4.3% dextrose</b> based on serum sodium values).</li>
+                        <li>Calculate deficit and maintenance.</li>
+                        <li>Give <b>½ deficit and ⅓ maintenance</b> in <b>8 hours</b> and the remaining deficit and maintenance in <b>16 hours</b>.</li>
+                        <li>Add <b>KCL (10-20 mmol/500 ml bag)</b> as soon as urine is passed.</li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <h4>Maintenance Therapy</h4>
+            <ul>
+                <li><b>Maintenance Phase</b> to prevent recurrence of dehydration.</li>
+                <li>This should be given orally as ORS or other fluids if the child can drink.</li>
+            </ul>
+
+
+
+            <table class="note-table">
+                <thead>
+                    <tr>
+                        <th colspan="2">Maintenance Fluid Requirement</th>
+                    </tr>
+                    <tr>
+                        <th>Body Weight (kg)</th>
+                        <th>Maintenance Fluid Requirement</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>&#8804; 10</td>
+                        <td><b>100 ml/kg/day</b></td>
+                    </tr>
+                    <tr>
+                        <td>11-20</td>
+                        <td><b>1000 ml</b> plus <b>50 ml/kg</b> for each kg above 10 kg</td>
+                    </tr>
+                    <tr>
+                        <td>&gt; 20</td>
+                        <td><b>1500 ml</b> plus <b>20 ml/kg</b> for each kg above 20 kg</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+
+                        <!-- image here -->
+                        <div class="image-container">
+                            <img src="../figures/diarrhea.png" alt="" onclick="openModal(this)">
+                            <div class="caption">Summary of fluid management of acute diarrhea</div>
+                          </div>
+                          
+                          <div id="myModal" class="modal">
+                            <span class="close" onclick="closeModal()">&times;</span>
+                            <img class="modal-content" id="modalImage">
+                            <div id="caption" class="caption">Summary of fluid management of acute diarrhea</div>
+                          </div>
+            
+
+                          <h4>Role of Drugs in the Treatment of Acute Diarrhea</h4>
+
+                            <ul>
+                                <li><b>Antidiarrheal, antiemetic, or antisecretory agents</b> are of no benefit and some can be dangerous.</li>
+                                <li><b>Antimicrobials</b> are only indicated in:
+                                    <ul>
+                                        <li><b>Severe Shigella infection</b></li>
+                                        <li><b>Moderate to severe Clostridium infection</b> associated with colitis</li>
+                                        <li><b>Enteroinvasive E. coli infection</b></li>
+                                        <li><b>Salmonella enteritis</b> in the very young, immune-compromised, or systemically ill child</li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx2teDCmW6ivSeKLQg7zF_jy7Yfg_1Gqm84_UT0PQPATsNug/viewform?usp=sf_link" class="comment-button">
+            here
+            <!-- <img src="../images/icons/whatsapp.png" alt="Image Icon"> -->
+          </a>
+        </div>
+
+        <div class="contributors-container">
+
+          <h2 class="contributors-header">Contributors</h2>
+  
+        <br>
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/woman.png" alt="Contributor 1 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">Jane Smith</h3>
+                    <p class="contributor-description">She is not a real contributor.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                        </a>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/twitter.png" alt="Social Icon 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/man.png" alt="Contributor 2 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">John Doe</h3>
+                    <p class="contributor-description">He is not a real contributor.</p>
+                    <div class="social-links">
+                      <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/linkedin.png" alt="Social Icon 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 
