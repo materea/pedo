@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Fever",
       "Cholestasis in Children",
       "Hepatic Disorders in Children",
-      "Intestinal Helminthic Infestation",
+      "Intestinal Helminthic Infestations",
       "Intussusception and Management",
       "Diarrhea",
       "Classification and Management of Anaemias",
