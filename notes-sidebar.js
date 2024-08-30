@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Cholestasis in Children",
       "Hepatic Disorders in Children",
       "Intestinal Helminthic Infestation",
-      "Intussusception",
+      "Intussusception and Management",
       "Diarrhea",
       "Classification and Management of Anaemias",
       "Bleeding Disorders in Childhood",
