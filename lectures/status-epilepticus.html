@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Status Epilepticus</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+  <h1>Status Epilepticus</h1>
+
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+        
+          <br>
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Introduction</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li>Defined as a continuous convulsion lasting longer than <strong>30 minutes</strong> or the occurrence of serial convulsions between which there is no return of consciousness.</li>
+              <li><strong>EPILEPSY FOUNDATION OF AMERICA</strong></li>
+              <li>It is a <strong>medical emergency</strong> that requires an organized and skillful approach to minimize the associated mortality and morbidity.</li>
+            </ul>
+            
+            <h4>Newer Definition</h4>
+            <ul>
+              <li>The definition has recently changed and continues to do so as new evidence emerges.</li>
+              <li>A seizure that lasts longer than <strong>5 minutes</strong>, or having more than <strong>1 seizure</strong> within a <strong>5-minute</strong> period, without returning to a normal level of consciousness between episodes.</li>
+            </ul>
+            
+            <h4>Latest Definition</h4>
+            <ul>
+              <li>Defined depending upon the classification as to whether it is:</li>
+              <ul>
+                <li><strong>Convulsive (CSE)</strong> — <strong>5 minutes</strong></li>
+                <li><strong>Focal (FSE)</strong> — <strong>10 minutes</strong></li>
+                <li><strong>Absence status epilepticus (ASE)</strong> — <strong>10–15 minutes</strong> for absent status epilepticus.</li>
+              </ul>
+              <li>This new definition considers the evidence that after these timelines the seizure activity is unlikely to stop spontaneously and therefore requires aggressive treatment for such complex pathology.</li>
+              <li>The importance of this new definition is related to the type of seizure, as the time after which a patient has long-term consequences varies.</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Classification of SE</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li>The <strong>International League Against Epilepsy (ILAE)</strong> classification consists of <strong>4 axes</strong>:
+                <ul>
+                  <li><strong>Semiology</strong> - presence or absence of prominent motor findings</li>
+                  <li><strong>Etiology</strong> - known and unknown causes</li>
+                  <li><strong>EEG correlates</strong> - description of the EEG</li>
+                  <li><strong>Age</strong> - neonatal, infancy, childhood, adolescent, adult, and elderly</li>
+                </ul>
+              </li>
+            </ul>
+            
+            <h4>The Treiman Classification of SE</h4>
+            <ul>
+              <li><strong>Generalized convulsive status epilepticus</strong></li>
+              <li><strong>Subtle status epilepticus</strong></li>
+              <li><strong>Non-convulsive status epilepticus</strong> (e.g., absence, complex partial)</li>
+              <li><strong>Simple partial status epilepticus</strong></li>
+            </ul>
+            
+            <h4>The Luders and Rona Semiologic Classification</h4>
+            <ul>
+              <li>Consists of <strong>3 axes</strong>, as follows:
+                <ul>
+                  <li><strong>The type of brain function predominantly compromised</strong></li>
+                  <li><strong>The body part involved</strong></li>
+                  <li><strong>The evolution over time</strong></li>
+                </ul>
+              </li>
+            </ul>
+            
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Etiology</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li>There are <strong>three major subtypes</strong> of status epilepticus in children:
+                <ul>
+                  <li><strong>Prolonged febrile seizures</strong></li>
+                  <li><strong>Idiopathic status epilepticus</strong>, in which a seizure develops in the absence of an underlying CNS lesion or insult</li>
+                  <li><strong>Symptomatic status epilepticus</strong>, when the seizure occurs as a result of an underlying neurologic disorder or a metabolic abnormality</li>
+                </ul>
+              </li>
+              <li>The idiopathic group includes epileptic patients who have had <strong>sudden withdrawal of AEDs</strong> followed by status epilepticus.</li>
+              <li>Epileptic children who are given <strong>anticonvulsants</strong> on an irregular basis or who are noncompliant are more likely to develop status epilepticus.</li>
+              <li>It may also be the <strong>initial presentation of epilepsy</strong>.</li>
+              <li><strong>Sleep deprivation</strong> and an <strong>intercurrent infection</strong> make epileptic patients more susceptible to status epilepticus.</li>
+            </ul>
+            
+            <h4>Other Causes</h4>
+            <ul>
+              <li><strong>Encephalitis</strong></li>
+              <li><strong>Meningitis</strong></li>
+              <li><strong>Congenital malformations of the brain</strong> (e.g., lissencephaly or schizencephaly)</li>
+              <li><strong>Inborn errors of metabolism</strong> (especially in newborns)</li>
+              <li><strong>Electrolyte abnormalities</strong> (especially glucose, calcium)</li>
+              <li><strong>Drug intoxication</strong></li>
+              <li><strong>Reye syndrome</strong></li>
+              <li><strong>Lead intoxication</strong></li>
+              <li><strong>Extreme hyperpyrexia</strong></li>
+              <li><strong>Brain tumors</strong>, particularly in the frontal lobe</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Pathophysiology</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li><strong>Cell death</strong> may result from excessive release of the excitatory neurotransmitter <strong>glutamate</strong> and excessive stimulation of glutamate receptors, a process known as <strong>"excitotoxicity"</strong>.</li>
+              <li>The most vulnerable areas of the brain include the <strong>hippocampus</strong>, <strong>amygdala</strong>, <strong>cerebellum</strong>, <strong>middle cortical area</strong>, and <strong>thalamus</strong>.</li>
+              <li>Prolonged generalized seizure activity may lead to dysfunction of the <strong>autonomic nervous system</strong> with <strong>hypotension</strong> and <strong>shock</strong>, as well as to <strong>lactic acidosis</strong>, <strong>myoglobinuria</strong>, elevated <strong>lactic acid levels</strong>, and <strong>acute tubular necrosis</strong>.</li>
+            </ul>
+            
+
+            <table class="note-table">
+              <thead>
+                <tr>
+                    <th colspan="2">Systemic and Cerebral Pathophysiologic Changes</th>
+                </tr>
+                <tr>
+                  <th>Compensation (&lt; 30 minutes)</th>
+                  <th>Decompensation (&gt; 30 minutes)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Increased cardiac output</strong></td>
+                  <td><strong>Falling of cardiac output and blood pressure</strong></td>
+                </tr>
+                <tr>
+                  <td><strong>Increased cerebral blood flow</strong></td>
+                  <td><strong>Failure of cerebral autoregulation</strong></td>
+                </tr>
+                <tr>
+                  <td><strong>Increased catecholamine release</strong></td>
+                  <td><strong>Hypoglycemia</strong></td>
+                </tr>
+                <tr>
+                  <td><strong>Increased glucose concentration in the brain</strong></td>
+                  <td><strong>Hypernatremia</strong>, <strong>Hypo/hyperkalemia</strong></td>
+                </tr>
+                <tr>
+                  <td><strong>Cerebral energy requirements matched by supply of oxygen and glucose</strong></td>
+                  <td><strong>Hypoxia</strong>, <strong>Acidosis</strong></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><strong>Leukocytosis</strong></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td><strong>DIC</strong></td>
+                </tr>
+              </tbody>
+            </table>
+
+            
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Treatment</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>Goals of Management</h4>
+            <ul>
+              <li><strong>Supporting vital functions</strong>
+                <ul>
+                  <li>(stabilizing the <strong>Airway</strong>, <strong>Breathing</strong>, and <strong>Circulation</strong>)</li>
+                </ul>
+              </li>
+              <li><strong>Termination of seizure activities</strong> as fast as possible</li>
+              <li><strong>Diagnosis and treatment of life-threatening causes</strong></li>
+            </ul>
+            
+            <h4>Treatment</h4>
+            <ul>
+              <li>Ideally should be in the <strong>ICU</strong></li>
+              <li>Initial treatment begins with an assessment of the <strong>respiratory</strong> and <strong>cardiovascular systems</strong>.</li>
+              <li>The <strong>oral airway</strong> is secured.</li>
+              <li>The <strong>vital signs</strong> should be recorded.</li>
+              <li><strong>Secretions</strong> should be suctioned.</li>
+              <li><strong>Assisted ventilation</strong> may be necessary.</li>
+              <li><strong>Physical and neurologic examination</strong> should be carried out concurrently to assess for:
+                <ul>
+                  <li><strong>Evidence of trauma</strong></li>
+                  <li><strong>Papilledema</strong></li>
+                  <li><strong>Bulging anterior fontanelle</strong> or <strong>lateralizing neurologic signs</strong> suggesting increased <strong>ICP</strong></li>
+                  <li><strong>Manifestations of sepsis</strong> or <strong>meningitis</strong></li>
+                  <li><strong>Retinal hemorrhages</strong> that may indicate a <strong>subdural hematoma</strong></li>
+                  <li><strong>Kussmaul breathing</strong> and <strong>dehydration</strong> suggestive of <strong>metabolic acidosis</strong></li>
+                  <li><strong>Irregular respirations</strong> signifying <strong>brainstem dysfunction</strong></li>
+                  <li><strong>Evidence of failure to thrive</strong></li>
+                  <li><strong>Peculiar body odor</strong> or <strong>abnormal hair pigmentation</strong> suggesting an <strong>inborn error of metabolism</strong></li>
+                  <li><strong>Constriction or dilatation of pupils</strong> suggesting a <strong>toxin</strong> or <strong>drugs</strong> as the cause of the status epilepticus</li>
+                </ul>
+              </li>
+              <li><strong>Investigations</strong> should be tailored along the possible causes.</li>
+            </ul>
+            
+
+            <h4>Drugs</h4>
+            <ul>
+              <li><strong>Should always be administered IV</strong>.</li>
+              <li><strong>IM route</strong> is unreliable because some drugs are sequestered by muscle.</li>
+              <li>One of the major problems in the management of status epilepticus is the <strong>inappropriate use of anticonvulsants</strong>.</li>
+              <li>An unsuitably <strong>low drug dose</strong> is too often given, and with lack of response, another antiepileptic is introduced immediately.</li>
+              <li>Care should be given with regard to how the <strong>anticonvulsant</strong> is administered.</li>
+              <li><strong>Phenytoin</strong> forms a precipitate in glucose solutions and is rendered ineffective.</li>
+              <li>Other drugs interact with <strong>plastic containers</strong> or are altered by <strong>sunlight</strong> (e.g., <strong>paraldehyde</strong>).</li>
+              <li>A <strong>benzodiazepine</strong> (diazepam, lorazepam, or midazolam) may be used initially.</li>
+              <li><strong>Diazepam</strong> should be given IV directly into the vein (not the tubing) in a dose of <strong>0.1-0.3 mg/kg</strong> at a rate no greater than <strong>2 mg/min</strong> for a maximum of <strong>three doses</strong>.</li>
+              <li><strong>Respiratory depression</strong> and <strong>hypotension</strong> can occur, especially if administered with a barbiturate.</li>
+              <li><strong>Benzodiazepines</strong> may be as effective as <strong>pentobarbital</strong> with fewer side effects.</li>
+              <li><strong>Diazepam</strong> is effective in the management of tonic-clonic status but has a <strong>short half-life</strong> and seizures may recur unless a longer-acting anticonvulsant is administered simultaneously.</li>
+              <li><strong>Lorazepam</strong> is an equally effective short-term anticonvulsant, with a greater duration of action and decreased likelihood of producing <strong>hypotension</strong> and <strong>respiratory arrest</strong>. The recommended dose is <strong>0.05-0.1 mg/kg IV</strong> administered slowly.</li>
+              <li>The dose of <strong>midazolam</strong> is <strong>0.15-0.3 mg/kg IV</strong>.</li>
+              <li>If an IV line cannot be established or the child is some distance from a medical center, <strong>rectal diazepam</strong> or <strong>lorazepam</strong> can be used safely:
+                <ul>
+                  <li><strong>Diazepam</strong> diluted in <strong>3 mL 0.9% NaCl</strong> is placed into the rectum by a syringe and a flexible tube at a dose of <strong>0.3-0.5 mg/kg</strong>.</li>
+                  <li><strong>Rectal lorazepam</strong> is given at a dose of <strong>0.05-0.1 mg/kg</strong>.</li>
+                </ul>
+              </li>
+              <li><strong>Therapeutic serum levels</strong> occur within <strong>5-10 minutes</strong>.</li>
+              <li><strong>Sublingual lorazepam</strong> (<strong>0.05-0.1 mg/kg</strong>) may be used to treat children with serial seizures that tend to develop into status epilepticus while the children are at home.</li>
+              <li>If the convulsive activity ceases after <strong>diazepam</strong> or <strong>lorazepam</strong> therapy or if the seizures persist, <strong>phenytoin</strong> is given immediately. The loading dose of phenytoin is <strong>15 up to 30 mg/kg IV</strong> (given in <strong>10 mg/kg increments</strong>) at the rate of <strong>1 mg/kg/min</strong>.</li>
+
+                <li><strong>Electrocardiography</strong> is recommended during the loading phase to identify <strong>arrhythmias</strong> and <strong>bradycardia</strong>, a rare complication in children.</li>
+                <li><strong>Systemic hypotension</strong> may also complicate IV phenytoin.</li>
+                <li>If the seizures do not recur, a <strong>maintenance dose</strong> of <strong>3-9 mg/kg</strong> divided into two equal doses daily is begun <strong>12-24 hours</strong> later.</li>
+                <li>In some centers, <strong>phenobarbital</strong> is initiated before phenytoin. It is given in a <strong>loading dose</strong> of <strong>15-20 mg/kg</strong> or in neonates <strong>20-30 mg/kg IV</strong> during <strong>10-30 minutes</strong>.</li>
+                <li>With control of the seizures, the <strong>maintenance dose</strong> is <strong>3-5 mg/kg/24 hours</strong> divided into two equal doses.</li>
+                <li>If seizures persist after adequate treatment with <strong>benzodiazepines</strong> and <strong>phenytoin/phenobarbital</strong>, it is referred to as <strong>REFRACTORY STATUS EPILEPTICUS (RSE)</strong>.</li>
+                <li>The choices for further drug management include:
+                  <ul>
+                    <li><strong>Paraldehyde</strong></li>
+                    <li><strong>Diazepam infusion</strong></li>
+                    <li><strong>Barbiturate coma</strong></li>
+                    <li><strong>General anesthesia</strong></li>
+                  </ul>
+                </li>
+              </ul>
+              
+
+              <table class="note-table">
+                <tr>
+                  <th>Diagnostic work-up flowchart</th>
+                  <th>Treatment flowchart</th>
+                </tr>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Check ABCs</li>
+                      <li>Insert IV</li>
+                      <li>STAT laboratory studies:
+                        <ul>
+                          <li>Electrolytes, calcium, magnesium</li>
+                          <li>CBC</li>
+                          <li>Liver and renal FX test</li>
+                          <li>Toxicology screen</li>
+                          <li>Anticonvulsant levels</li>
+                          <li>Arterial blood gas</li>
+                        </ul>
+                      </li>
+                      <li>Insert urinary catheter</li>
+                      <li>Urinalysis, urine toxicology</li>
+                      <li>Cardiac O2 saturation, monitors</li>
+                      <li>Consider the following during general and neurologic exam:
+                        <ul>
+                          <li>Trauma</li>
+                          <li>Infection</li>
+                          <li>Stroke</li>
+                          <li>Drug ingestion</li>
+                        </ul>
+                      </li>
+                      <li>As indicated:
+                        <ul>
+                          <li>Chest x-ray</li>
+                          <li>CT scan or MRI</li>
+                          <li>Lumbar puncture</li>
+                          <li>Blood cultures</li>
+                          <li>Blood toxicology screen</li>
+                        </ul>
+                      </li>
+                      <li>Treat underlying disorder(s)</li>
+                      <li>Admit to hospital</li>
+                    </ul>
+                  </td>
+                  <td>
+                    <ul>
+                      <li>Intubate if necessary</li>
+                      <li>Control hyperthermia</li>
+                      <li>50cc of 50% dextrose (D50) IV push</li>
+                      <li>Start anticonvulsant:
+                        <ul>
+                          <li>Diazepam 0.15 mg/kg IV over 5 min</li>
+                          <li>or</li>
+                          <li>Lorazepam followed by fosphenytoin 20 mg PE / kg IV @ maximum rate of 150 mg PE/min</li>
+                        </ul>
+                      </li>
+                      <li>If seizures continue after 20 min, give an additional 10 mg PE /kg of fosphenytoin</li>
+                      <li>If seizures continue after another 20 min, give phenobarbital 15 mg/kg IV</li>
+                      <li>If seizures continue, administer general anesthesia</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+              
+
+              <br>
+
+              <table class="note-table">
+                <thead>
+                    <tr>
+                        <th colspan="3">Drug and Supportive Treatment Timeline</th>
+                    </tr>
+                  <tr>
+                    <th>Time (Minutes)</th>
+                    <th>Drug Treatment</th>
+                    <th>Supportive Treatment</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>0</td>
+                    <td></td>
+                    <td>
+                      <ul>
+                        <li><strong>Clear airways</strong>, start <strong>oxygen</strong>, consider <strong>intubation</strong></li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>2-3</td>
+                    <td></td>
+                    <td>
+                      <ul>
+                        <li><strong>Set IV line</strong>, draw blood for <strong>glucose</strong>, <strong>LFT</strong>, <strong>RFT</strong>, <strong>FBC</strong>, <strong>electrolytes</strong>, <strong>blood gas</strong></li>
+                        <li><strong>Urine</strong> for urinalysis</li>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>3-5</td>
+                    <td><strong>Diazepam</strong> <strong>0.3 mg/kg</strong> over <strong>2 minutes</strong></td>
+                    <td><strong>Second IV line</strong></td>
+                  </tr>
+                  <tr>
+                    <td>7-8</td>
+                    <td><strong>Phenobarbital</strong>/<strong>Phenytoin</strong></td>
+                    <td><strong>D10</strong>, monitor <strong>BP</strong></td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Repeat <strong>benzodiazepine</strong> if needed</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>Repeat <strong>benzodiazepine</strong> if needed. If seizure persists…..</td>
+                    <td><strong>Transfer to ICU</strong></td>
+                  </tr>
+                  <tr>
+                    <td>20</td>
+                    <td><strong>Diazepam</strong> (<strong>0.01-0.1 mg/kg/min</strong>) or <strong>Midazolam</strong> (<strong>2 µg/kg/min</strong>, increase by <strong>2 µg/kg/min</strong> every <strong>5 minutes</strong> until seizure is controlled) infusion</td>
+                    <td><strong>Cardi-respiratory monitoring</strong>, <strong>continuous EEG monitoring</strong></td>
+                  </tr>
+                  <tr>
+                    <td>60</td>
+                    <td><strong>Thiopental (Barbiturate Coma)</strong> load with <strong>3-4 mg/kg</strong> over <strong>2 minutes</strong>, then infusion at <strong>0.2 mg/kg/min</strong></td>
+                    <td><strong>Mechanical ventilation</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+              <br>
+
+              <h4>Paraldehyde</h4>
+              <ul>
+                <li><strong>Relatively safe</strong> for administration to children.</li>
+                <li>A <strong>5% solution</strong> of paraldehyde is prepared by adding <strong>1.75 mL</strong> of paraldehyde (<strong>1 g/mL</strong>) to D5W to a total volume of <strong>35 mL</strong>.</li>
+                <li>The <strong>loading dose</strong> is <strong>150-200 mg/kg IV slowly</strong> for <strong>15-20 minutes</strong>, and then seizure control is maintained with an infusion of <strong>20 mg/kg/hr</strong> in a <strong>5% concentration</strong> in a glass bottle, because the drug is incompatible with plastic.</li>
+              </ul>
+              
+              <h4>General Anesthesia</h4>
+              <ul>
+                <li>Is an alternative adjunct to the management of status epilepticus if conventional drug therapy is not effective or if barbiturate coma is not an option.</li>
+                <li><strong>Halothane</strong>, <strong>isoflurane</strong>, and some other GA agents have been used successfully.</li>
+                <li>General anesthesia probably acts by reversing <strong>cerebral anoxia</strong> and the concomitant metabolic abnormalities, allowing the previously administered anticonvulsants to exert their effect.</li>
+              </ul>
+              
+              <h4>Valproic Acid</h4>
+              <ul>
+                <li>Has been an effective anticonvulsant in the management of several types of seizures.</li>
+                <li>Has also been successfully used in <strong>Status Epilepticus (SE)</strong>.</li>
+                <li>Valproic acid is available as an injectable in some parts of the world.</li>
+                <li><strong>Not yet in Nigeria!!!</strong></li>
+              </ul>
+              
+        </div>
+      </section>
+
+      <section id='header-6'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-6'>Complications of Status Epilepticus</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <ul>
+              <li><strong>Cerebral:</strong> Hypoxic injury, seizure-induced injury, cerebral oedema, cerebral haemorrhage and infarcts, cerebral venous thrombosis</li>
+              <li><strong>Cardiovascular:</strong> Hypertension, hypotension, bradycardia, arrhythmias, cardiac failure, shock</li>
+              <li><strong>Respiratory:</strong> Apnoea, Cheyne-Stokes breathing, respiratory acidosis, aspiration pneumonitis, pulmonary oedema</li>
+              <li><strong>Renal:</strong> Oliguria, acute renal failure, acute tubular necrosis, myoglobinuria</li>
+              <li><strong>Autonomic:</strong> Hyperpyrexia, failure of cerebral auto-regulation, vomiting, excessive secretion with airway obstruction, excessive sweating</li>
+              <li><strong>Metabolic:</strong> Hyperglycaemia, hypoglycaemia, hyperkalemia, hyponatremia, metabolic and lactic acidosis</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-7'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-7'>Prognosis </a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li>The greatest number of <strong>deaths</strong> occur in the <strong>symptomatic group</strong>, most of whom have a serious and life-threatening <strong>CNS disorder</strong> known before the onset of status epilepticus.</li>
+              <li><strong>Age</strong>, <strong>rapidity of control</strong>, and <strong>adequacy of care</strong> are important factors that determine prognosis.</li>
+              <li>Periodic <strong>Lateralized Epileptiform Discharge (PLED)</strong> during or after the event is associated with <strong>poor prognostic outcome</strong>.</li>
+              <li><strong>Mortality</strong> ranges between <strong>3-20%</strong>.</li>
+            </ul>
+            
+        </div>
+      </section>
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx2teDCmW6ivSeKLQg7zF_jy7Yfg_1Gqm84_UT0PQPATsNug/viewform?usp=sf_link" class="comment-button">
+            here
+            <!-- <img src="../images/icons/whatsapp.png" alt="Image Icon"> -->
+          </a>
+        </div>
+
+        <div class="contributors-container">
+
+          <h2 class="contributors-header">Contributors</h2>
+  
+        <br>
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/woman.png" alt="Contributor 1 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">Jane Smith</h3>
+                    <p class="contributor-description">She is not a real contributor.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                        </a>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/twitter.png" alt="Social Icon 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/man.png" alt="Contributor 2 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">John Doe</h3>
+                    <p class="contributor-description">He is not a real contributor.</p>
+                    <div class="social-links">
+                      <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/linkedin.png" alt="Social Icon 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 
