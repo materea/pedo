@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Thyroid Disorders</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+  <h1>Thyroid Disorders</h1>
+
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+        
+          <br>
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Embryology of the Thyroid Gland</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li><b>Development:</b> The thyroid gland develops from the floor of the oral cavity, specifically from an area known as the <b>foramen cecum</b>. It begins its descent to its final position in the neck by the end of the <b>first trimester</b>.</li>
+              <li><b>Activation of Axis:</b> By the <b>second trimester</b>, the <b>hypothalamic-pituitary-thyroid (HYP-PIT-THYROID) axis</b> becomes active, leading to the regulation of thyroid hormone production.</li>
+              <li><b>Hormone Metabolism:</b> Peripheral metabolism of thyroid hormones (conversion of <b>T4 to T3</b>) begins in the <b>third trimester</b>.</li>
+              <li><b>Placental Transfer:</b> Thyroid hormones (<b>T3</b>, <b>T4</b>, and <b>TSH</b>) do not significantly cross the placenta. However, thyroid antibodies (e.g., <b>TSH receptor antibodies</b>) and anti-thyroid drugs (e.g., <b>propylthiouracil</b>, <b>methimazole</b>) can cross the placenta and affect fetal thyroid function.</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Physiology of the Thyroid Gland</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li><b>Hypothalamus:</b> Secretes <b>thyrotropin-releasing hormone (TRH)</b>, which stimulates the pituitary gland.</li>
+              <li><b>Pituitary Gland:</b> Produces <b>thyroid-stimulating hormone (TSH)</b>, which acts on the thyroid gland to promote the synthesis and release of thyroid hormones.</li>
+              <li><b>Thyroid Gland:</b>
+                <ul>
+                  <li>Produces <b>triiodothyronine (T3)</b> and <b>thyroxine (T4)</b> through the iodination of tyrosine.</li>
+                  <li><b>T3</b> is more potent than <b>T4</b>. Most <b>T3</b> is produced by the peripheral deiodination of <b>T4</b>.</li>
+                </ul>
+              </li>
+              <li><b>Negative Feedback:</b> Thyroid hormones exert a negative feedback effect on both the hypothalamus and pituitary gland, regulating their secretion of <b>TRH</b> and <b>TSH</b>, respectively.</li>
+            </ul>
+            
+            <h4>Functions of Thyroid Hormones</h4>
+            <ul>
+              <li><b>Increase O<sub>2</sub> Consumption:</b> Enhances basal metabolic rate.</li>
+              <li><b>Increase Protein Synthesis:</b> Supports growth and tissue repair.</li>
+              <li><b>Stimulate Growth & Differentiation:</b> Important for linear growth and brain maturation.</li>
+              <li><b>Influence Metabolism:</b> Affects carbohydrate, lipid, and vitamin metabolism.</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>Hypothyroidism</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li><b>Definition:</b> A condition characterized by inadequate production of thyroid hormones.</li>
+              <li><b>Types:</b>
+                <ul>
+                  <li><b>Congenital Hypothyroidism:</b> Present at birth.</li>
+                  <li><b>Acquired Hypothyroidism:</b> Develops later in life.</li>
+                  <li>Can be <b>goitrous</b> (enlarged thyroid) or <b>non-goitrous</b>.</li>
+                </ul>
+              </li>
+            </ul>
+            
+
+            <section id='heading-3-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-1'></a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <h4>Congenital Hypothyroidism</h4>
+                    <ul>
+                      <li><b>Incidence:</b> Occurs in approximately <b>1 in 4,000 births</b>.</li>
+                      <li><b>Presentation:</b> May show delayed development of physical and mental functions.</li>
+                      <li><b>Causes:</b>
+                        <ul>
+                          <li><b>Thyroid Agenesis:</b> Absence of the thyroid gland.</li>
+                          <li><b>Thyroid Aplasia:</b> Underdeveloped thyroid gland.</li>
+                          <li><b>Ectopic Thyroid Tissue:</b> Abnormal location of the thyroid gland.</li>
+                          <li><b>Inborn Errors of Metabolism:</b> Defects in the thyroid hormone synthesis pathway, often leading to a goitrous form.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <h4>Clinical Manifestations of Congenital Hypothyroidism</h4>
+                    <ul>
+                      <li><b>Birth and Early Signs:</b>
+                        <ul>
+                          <li>Post-term delivery</li>
+                          <li>Macrosomia (large body size)</li>
+                          <li>Subtle initial symptoms</li>
+                        </ul>
+                      </li>
+                      <li><b>Early Symptoms:</b>
+                        <ul>
+                          <li>Hypothermia</li>
+                          <li>Abdominal distension</li>
+                          <li>Respiratory distress</li>
+                          <li>Large fontanelle</li>
+                          <li>Lethargy</li>
+                          <li>Poor feeding</li>
+                          <li>Prolonged jaundice</li>
+                          <li>Umbilical hernia</li>
+                          <li>Mottled skin</li>
+                          <li>Large tongue (macroglossia)</li>
+                          <li>Coarse facial features</li>
+                          <li>Constipation</li>
+                          <li>Hoarse cry</li>
+                        </ul>
+                      </li>
+                      <li><b>Developmental Delays:</b>
+                        <ul>
+                          <li>Delayed developmental milestones</li>
+                          <li>Mental retardation</li>
+                          <li>Delayed bone age</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <h4>Diagnosis and Treatment of Congenital Hypothyroidism</h4>
+                    <ul>
+                      <li><b>Diagnosis:</b>
+                        <ul>
+                          <li><b>Newborn Screening:</b> Essential for early detection.</li>
+                          <li><b>Laboratory Tests:</b> Measure serum T4 and TSH levels.</li>
+                        </ul>
+                      </li>
+                      <li><b>Treatment:</b>
+                        <ul>
+                          <li><b>Thyroxine Replacement:</b> Administered to prevent mental retardation.</li>
+                          <li><b>Timing:</b> Treatment should start within the first 2 weeks of life for optimal outcomes.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                </div>
+              </section>
+
+              <section id='heading-3-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-2'>Acquired Hypothyroidism</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li><b>Causes:</b>
+                        <ul>
+                          <li><b>Chronic Lymphocytic Thyroiditis (Hashimoto Thyroiditis):</b> Most common cause (incidence 1:1,250).</li>
+                          <li><b>Iodine Deficiency:</b> Rare in modern contexts.</li>
+                          <li><b>Iatrogenic:</b> Due to treatment for hyperthyroidism.</li>
+                          <li><b>Drug-Induced:</b> Ingestion of iodide-containing drugs (e.g., amiodarone).</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <h4>Hashimoto Thyroiditis (Chronic Lymphocytic Thyroiditis - CLT)</h4>
+                    <ul>
+                      <li><b>Epidemiology:</b>
+                        <ul>
+                          <li>Female:Male ratio = <b>4-7:1</b></li>
+                          <li>Common in adolescents but can occur as early as the first year of life.</li>
+                        </ul>
+                      </li>
+                      <li><b>Pathophysiology:</b>
+                        <ul>
+                          <li>An autoimmune disorder often associated with other autoimmune conditions (e.g., <b>Type 1 Diabetes Mellitus</b>).</li>
+                          <li>Characterized by lymphocytic infiltration of the thyroid gland with hyperplasia leading to goitre.</li>
+                          <li>Can present with hyperthyroidism, euthyroidism, or hypothyroidism.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <h4>Clinical Manifestations</h4>
+                    <ul>
+                      <li><b>Common Symptoms:</b>
+                        <ul>
+                          <li>Goitre</li>
+                          <li>Short Stature</li>
+                          <li>Vitiligo</li>
+                          <li>Cold, Clammy Skin</li>
+                          <li>Cold Intolerance</li>
+                          <li>Pallor</li>
+                          <li>Bradycardia</li>
+                          <li>Physical and Mental Lethargy</li>
+                          <li>Hypotonia</li>
+                          <li>Muscle Weakness</li>
+                          <li>Delayed Bone Age</li>
+                          <li>Menstrual Irregularities</li>
+                          <li>Pleural and Pericardial Effusion</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <h4>Diagnosis & Treatment</h4>
+                    <ul>
+                      <li><b>Diagnosis:</b>
+                        <ul>
+                          <li>Thyroid function tests: T3, T4, TSH</li>
+                          <li>Thyroid Ultrasound</li>
+                          <li>Anti-Thyroid Antibodies</li>
+                        </ul>
+                      </li>
+                      <li><b>Treatment:</b>
+                        <ul>
+                          <li>Thyroxine replacement therapy.</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+    
+                </div>
+              </section>
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Hyperthyroidism</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li><b>Definition:</b> Excessive production of thyroid hormones.</li>
+            </ul>
+            
+            <h4>Causes</h4>
+            <ol>
+              <li><b>Graves' Disease:</b> The most common cause, an autoimmune disorder resulting in the overproduction of thyroid hormones.</li>
+              <li><b>McCune-Albright Syndrome:</b> A genetic disorder that can cause autonomous thyroid hormone production.</li>
+              <li><b>Thyroid Carcinoma:</b> Malignant tumors of the thyroid gland that may produce thyroid hormones.</li>
+              <li><b>Subacute Thyroiditis:</b> Inflammation of the thyroid, often following a viral infection, leading to transient hyperthyroidism.</li>
+              <li><b>Acute Thyroiditis:</b> Bacterial or other infectious inflammation causing an overproduction of thyroid hormones.</li>
+              <li><b>Iatrogenic:</b> Due to excessive administration of thyroid hormone medications.</li>
+            </ol>
+            
+            <section id='heading-4-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-1'>Graves' Disease</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li><b>Incidence:</b> 1 in 5,000</li>
+                      <li><b>Female to Male Ratio:</b> 5:1</li>
+                      <li><b>Peak Age:</b> 11–15 years</li>
+                      <li><b>Pathophysiology:</b> Autoimmune disorder involving stimulating auto-antibodies, resulting in increased levels of T3 and T4 and decreased TSH.</li>
+                    </ul>
+                    
+                    <h4>Clinical Manifestations</h4>
+                    <ul>
+                      <li>Goitre</li>
+                      <li>Restlessness</li>
+                      <li><b>Eye Signs:</b> Lid lag, exophthalmos</li>
+                      <li><b>Cardiovascular:</b> Tachycardia, palpitations, hypertension, arrhythmias, tremors</li>
+                      <li>Increased Sweating</li>
+                      <li>Heat Intolerance</li>
+                      <li>Fatigue</li>
+                      <li>Weight Loss</li>
+                      <li>Diarrhea</li>
+                      <li>Myopathy</li>
+                    </ul>
+                    
+                    <h4>Diagnosis</h4>
+                    <ul>
+                      <li><b>Laboratory Findings:</b>
+                        <ul>
+                          <li>Elevated T3 and T4</li>
+                          <li>Decreased TSH</li>
+                          <li>Presence of Thyroid Peroxidase Antibodies and Anti-TRAB</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <h4>Treatment</h4>
+                    <ol>
+                      <li><b>Medical:</b>
+                        <ul>
+                          <li><b>Propranolol:</b> To manage cardiovascular symptoms.</li>
+                          <li><b>Methimazole or Carbimazole:</b> Antithyroid drugs to reduce hormone production.</li>
+                          <li><b>Propylthiouracil (PTU):</b> Another antithyroid medication option.</li>
+                        </ul>
+                      </li>
+                      <li><b>Surgical:</b>
+                        <ul>
+                          <li><b>Thyroidectomy:</b> Partial or total removal of the thyroid gland.</li>
+                        </ul>
+                      </li>
+                      <li><b>Radioactive Iodine Therapy:</b>
+                        <ul>
+                          <li>Use of radio-iodide to destroy overactive thyroid tissue.</li>
+                        </ul>
+                      </li>
+                    </ol>
+                    
+    
+                </div>
+              </section>
+
+              <section id='heading-4-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-4-2'>Neonatal Graves' Disease</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li><b>Definition:</b> Occurs in babies born to mothers with Graves' disease due to the trans-placental transfer of thyroid-stimulating antibodies.</li>
+                    </ul>
+                    
+                    <h4>Clinical Features</h4>
+                    <ul>
+                      <li>Small for Gestational Age (SGA)</li>
+                      <li>Weight Loss</li>
+                      <li>Poor Feeding</li>
+                      <li>Irritability</li>
+                      <li>Tachycardia</li>
+                    </ul>
+                    
+                    <h4>Diagnosis</h4>
+                    <ul>
+                      <li><b>Laboratory Findings:</b>
+                        <ul>
+                          <li>Increased T3 and T4</li>
+                          <li>Decreased TSH</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <h4>Treatment</h4>
+                    <ul>
+                      <li><b>Propylthiouracil (PTU):</b> To reduce thyroid hormone production.</li>
+                      <li><b>Propranolol:</b> To manage symptoms such as tachycardia.</li>
+                    </ul>
+                    
+    
+                </div>
+              </section>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx2teDCmW6ivSeKLQg7zF_jy7Yfg_1Gqm84_UT0PQPATsNug/viewform?usp=sf_link" class="comment-button">
+            here
+            <!-- <img src="../images/icons/whatsapp.png" alt="Image Icon"> -->
+          </a>
+        </div>
+
+        <div class="contributors-container">
+
+          <h2 class="contributors-header">Contributors</h2>
+  
+        <br>
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/woman.png" alt="Contributor 1 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">Jane Smith</h3>
+                    <p class="contributor-description">She is not a real contributor.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                        </a>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/twitter.png" alt="Social Icon 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/man.png" alt="Contributor 2 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">John Doe</h3>
+                    <p class="contributor-description">He is not a real contributor.</p>
+                    <div class="social-links">
+                      <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/linkedin.png" alt="Social Icon 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 
