@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+  <title>Poliomyelitis</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../notes.css">
+
+</head>
+<body>
+  <input type="checkbox" id="main-navigation-toggle" class="btn btn--close" title="Toggle main navigation" />
+  <label for="main-navigation-toggle">
+    <span></span>
+  </label>
+  
+  <a href="../index.html">
+   <div class="home-navigation">
+      mtr<span class="logo-dot">.</span>
+    </div>
+  </a>
+
+
+    <nav id="main-navigation" class="nav-main">
+    <ul class="menu">
+      <li class="menu__item">
+        <a class="menu__link" href="../index.html">Home</a>
+      </li>
+
+      <li class="menu__item">
+        <a class="menu__link" href="../about-temp2.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  
+      <!-- Toggle switch for dark mode -->
+      <div class="dark-mode-toggle">
+        <label class="switch-toggle">
+            <input type="checkbox" id="dark-mode-toggle-checkbox">
+            <span class="toggle-slider"></span>
+        </label>
+      </div>
+
+      <!-- Progress Bar  -->
+      <div id="progress-container">
+        <div id="progress-bar"></div>
+    </div>
+      
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <button id="closeSidebarBtn" class="btn toggle-btn close-btn">Close</button>
+  <ul class="sidebar-menu toggle-menu">
+    <!-- Add the list of topics dynamically using JavaScript -->
+  </ul>
+</div>
+
+<!-- Toggle button to open the sidebar -->
+<button id="toggleSidebarBtn" class="btn toggle-btn">&#9776;</button>
+
+<!-- END OF SIDEBAR -->
+
+  <main class="page-container">
+    <div class="contribute-cta">
+      <p>Help make this better💜</p>
+      <span><a href="../contribute.html">Contribute here</a> </span>
+    </div>
+
+
+  <!-- TOPIC AND IMAGE CONTAINER  -->
+
+  <h1>Poliomyelitis</h1>
+
+
+  <!-- END OF TOPIC AND IMAGE CONTAINER  -->
+  
+
+
+    <article class="notes">
+        <a id='top'></a>
+    <article>
+
+          <!-- LEARNING OBJECTIVES CONTAINER  -->
+              <div class="custom-card" id="custom-card-1">
+                <div class="icon"><img src="../images/icons/light-bulb.png" alt="Icon" class="icon"></div>
+                <div class="title"> 
+                  <h2>What You Will Learn</h2>
+                </div>
+                <div class="line">
+                  <p>After reading this note, you should be able to...</p>
+                </div>
+                <div class="content">
+                  <ul>
+                    <li><i>This content is not available yet.</i></li>
+                </ul>
+                </div>
+                <div class="read-more" onclick="toggleContent('custom-card-1')">Read More 🍪</div>
+              </div>
+            
+          <!-- END OF LEARNING OBJECTIVES CONTAINER  -->
+        
+        
+          <!-- SHOW AND HIDE OUTLINE CONTAINER  -->
+            <div class="outline2">
+        
+              <input type="radio" name="control-2" id="show-2">
+              <label for="show-2">🐵&nbsp; &nbsp;Show Outline</label>
+              <input type="radio" name="control-2" id="hide-2">
+              <label for="hide-2">🙈&nbsp; &nbsp; Hide Outline</label>
+              <div class="contents">
+                <div class="icon-box">
+                  <!-- Replace 'path/to/your/icon.png' with the actual path to your PNG icon -->
+                  <img src="../images/icons/book.png" alt="Icon" class="icon">
+                </div>
+                <div id="tableOfContents">
+                    <ol id="tocList"></ol>
+                </div>
+              </div>
+             <div>
+        
+        <!-- END OF SHOW AND HIDE OUTLINE CONTAINER  -->
+        
+        
+          <br>
+        
+            <!-- BEGINNING OF NOTE -->
+        
+      <section id='header-1'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-1'>Definition(s)</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li>An acute, frequently viraemic infection of humans with no extrahuman reservoir of infection. Clinical manifestations range from none or non-CNS symptoms (e.g., malaise, low-grade fever, sore throat, vomiting, and/or diarrhea), myalgia, and nuchal rigidity (as seen in aseptic meningitis) to a rapidly progressive asymmetric flaccid paralysis in a minority of cases with paralytic disease.</li>
+              <li>Other definitions (Sabin): A clinicopathologic syndrome caused by any poliovirus (PV) but also possible with any of 19 other enteroviruses (EVs).</li>
+            </ul>
+            
+        </div>
+      </section>
+
+      <section id='header-2'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-2'>Aetiology/Virology</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <ul>
+              <li>Caused by any of 3 serotypes of <b>Poliovirus</b>.</li>
+              <li><b>Poliovirus</b> is a positive, non-enveloped, RNA virus (hence stable) belonging to the <b>Picornaviridae</b> family and the <b>Enterovirus</b> genus.</li>
+              <li>Three immunologically distinct types of poliovirus:
+                <ul>
+                  <li><b>Type 1</b> (Lansing, cause of most wild epidemics/outbreaks)</li>
+                  <li><b>Type 2</b> (Brunhilde, most effective immunogen with the highest seroconversion rate)</li>
+                  <li><b>Type 3</b> (Leon)</li>
+                </ul>
+              </li>
+              <li>Immunity after infection is lifelong but <b>monotypic</b>.</li>
+              <li>Active at room temperature, survives in milk, water, and (indefinitely) deep freezing at -20°C.</li>
+              <li>Resistant to acid and bile, hence survives upper GI hostility.</li>
+              <li>Killed by:
+                <ul>
+                  <li><b>Pasteurization</b> at ~56°C</li>
+                  <li><b>Physical agents</b> like UVR</li>
+                  <li><b>Chemical agents</b> like formaldehyde, H₂O₂, and chlorinated antiseptics</li>
+                </ul>
+              </li>
+              <li>Propagation possible in several tissue cultures (human or monkey kidney cells) with consequent <b>cytopathic effects (CPE)</b>.</li>
+              <li><b>Serological identification and typing</b> for polio are best with neutralization tests on paired sera; CF and other techniques are unreliable.</li>
+            </ul>
+            
+
+        </div>
+      </section>
+
+      <section id='header-3'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-3'>History and Epidemiology</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <ul>
+              <li>Paralytic disease, most likely attributable to <b>Polio</b>, was recognized in ancient Egypt and described as early as 1789 in England.</li>
+              <li>As recent as the mid-50s, epidemics with over 50,000 cases were reported in the US; more than 20,000 had paralytic illness with over 3,000 deaths.</li>
+              <li>Corresponding high morbidity and mortality indices were recorded in epidemics in Europe around the same period.</li>
+              <li>In these communities, paralytic polio reportedly affected adolescents and adults (e.g., an earlier US president had Polio!). This contrasts with current and previous outbreaks in the tropics, the Middle East, and Asia, where poor sanitation and low levels of immunization continue to make polio a disease of infants and young preschool children (i.e., a true infantile paralysis, the synonym for poliomyelitis).</li>
+              <li>Wild type polio paralysis has since been eradicated in most developed nations of the Western Hemisphere. Cases of paralytic polio in young adults, recently identified in the 90s, were associated with vaccine virus strains from Salk-IPV or the administration of OPV to the immunocompromised.</li>
+              <li>While good sanitation and hygiene with appropriate sewage disposal have continued to sustain low levels of infection in the Western world, the opposite, along with overcrowding, warfare, and other man-made catastrophes causing refugee living conditions as well as low levels of immunization, have continued to make polio-related flaccid paralysis an important cause of avoidable childhood morbidity and mortality in some developing countries, including Nigeria.</li>
+              <li>In these latter countries, paralytic disease is uncommon in adolescents and adults, where a high level of herd immunity is expected, apparently due to poor sanitation and opportunities for contact with infected feces.</li>
+            </ul>
+            
+
+            <section id='heading-3-1'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-1'>Mode of Transmission</a>
+                  </h3>
+                </header>
+                <div class='body'>
+                    <ul>
+                      <li>Essentially <b>fecal-oral</b> (directly or through fomites). While the upper respiratory route of virus acquisition (via droplets) is possible, it is clinically an unimportant route.</li>
+                      <li>Spread via contaminated water, milk, and food, possibly aided by mechanical vectors like fecal-feeding flies such as <b>Lucilia</b> and <b>Sarcophaga</b>.</li>
+                      <li><b>Humans</b> are the only known reservoir of infection.</li>
+                    </ul>
+                    
+
+                    
+    
+                </div>
+              </section>
+
+              <section id='heading-3-2'>
+                <header>
+                  <h3>
+                    <a aria-hidden href='#heading-3-2'>Predisposing Factors</a>
+                  </h3>
+                </header>
+                <div class='body'>
+
+                    <ul>
+                      <li>Important predisposing factors include:
+                        <ul>
+                          <li><b>Host factors:</b> Poorly understood and includes:
+                            <ul>
+                              <li>Age-related and hormonal factors</li>
+                              <li>Pre-infection stress such as physical exertion, intramuscular injections, and surgical procedures</li>
+                              <li>Pre-infection immunization status</li>
+                            </ul>
+                          </li>
+                          <li><b>Environmental factors:</b>
+                            <ul>
+                              <li>Crowding</li>
+                              <li>Insanitary housing conditions, including poor sewage disposal facilities</li>
+                              <li>Poor water supply</li>
+                              <li>Disaster scenarios: natural and man-made</li>
+                              <li>Supportive climate for maximal breeding of mechanical vectors</li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+    
+                </div>
+              </section>
+        </div>
+      </section>
+
+      <section id='header-4'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-4'>Types of Outbreak</a>
+          </h2>
+        </header>
+        <div class='body'>
+            <h4>2 Types of Outbreaks of Wild Polio Seen in Developing Countries</h4>
+            <ul>
+              <li><b>Population of non-immune, susceptible individuals:</b> This may accumulate due to under-immunization, resulting in epidemics after the introduction of the wild-type virus.</li>
+              <li><b>Population with a relatively well-executed immunization program and immunity:</b> Outbreaks may occur due to an abnormally heavy load of wild-type virus, which can build up from environmental deprivation, natural and man-made disasters, and refugee situations. The heavy load increases the likelihood of susceptible individuals and results in a disease outbreak.</li>
+            </ul>
+            
+
+        </div>
+      </section>
+
+      <section id='header-5'>
+        <header>
+          <h2>
+            <a aria-hidden='true' href='#header-5'>Pathogenesis</a>
+          </h2>
+        </header>
+        <div class='body'>
+
+            <ul>
+              <li><b>Ingestion (or inhalation)</b> of virus-contaminated food or water by a susceptible human host.</li>
+              <li><b>Absorption</b> by specific genetically determined receptors, including the so-called <b>PVR</b>; the virus subsequently penetrates the host cell and releases its RNA after removal of the virus coat.</li>
+              <li><b>RNA translation</b> occurs with the subsequent production of the RNA-replicating protein (e.g., structural elements of the virus capsid) and abrogation of host cell protein synthesis. Replication and production of mature virus require only 6-8 hours.</li>
+              <li><b>Primary replication</b> occurs in the M cells of the small intestinal mucosa. Subsequent infection of subjacent lymphoid tissues (comprising the superficial tonsils and Peyer’s patches, and the deeper ones like cervical nodes and mesenteric nodes) results in transient primary viraemia.</li>
+            </ul>
+            
+            <h4>Viraemia, Clinical Manifestations, and CNS Infection</h4>
+            <p>The advent of clinical manifestations and CNS infection can be described according to the following overlapping phases:</p>
+            <ul>
+              <li><b>Phase 1:</b> Virus replication occurs in oropharyngeal and upper intestinal epithelial cells, and subjacent superficial lymphoid structures like tonsils and Peyer’s patches. Amplification at this stage is not sufficient to cause clinical symptoms.</li>
+              <li><b>Phase 2:</b> Spread of the virus follows multiplication to the regional nodes (deep cervical and mesenteric), where further replication and amplification occur, resulting in transient primary viraemia. This manifests as a transient febrile illness with non-specific (non-CNS) symptoms of abortive poliomyelitis.</li>
+              <li><b>Phase 3:</b> Dissemination of the virus from transient viraemia to various extra-neural tissues like the reticuloendothelial cells of various viscera and brown fat. Extensive replication and amplification occur in these viscera, resulting in continuous showering of the bloodstream and persistent viraemia.</li>
+            </ul>
+            
+            <h4>CNS Infection and Access Routes of Virus to the CNS</h4>
+            <p><b>CNS Infection:</b> Occurs in a minority of cases, primarily targeting the motor neurons of the anterior horn cells of the spinal cord.</p>
+            <ul>
+              <li><b>Intermediate and dorsal horns</b> as well as the root ganglia may be involved, resulting in hyperaesthesia and myalgia.</li>
+              <li><b>Medullary involvement (bulbar polio):</b> May culminate in multiple cranial nerve deficits, bulbar paralysis (including those affecting the vital centres such as vasomotor and respiratory centres), and diaphragmatic paralysis, which may prove fatal.</li>
+              <li><b>Bulbar reticular formations, cerebellar roof nuclei, and vermis</b> may also be involved.</li>
+              <li><b>Other CNS sites</b> of occasional involvement include the motor cortex (encephalitic polio), pontine red nucleus, substantia nigra, nuclei in the globus pallidus, thalamus, and hypothalamus.</li>
+            </ul>
+            
+            <p><b>Access Routes of Virus to the CNS:</b></p>
+            <ul>
+              <li><b>Haematogenous:</b> This is the most widely accepted route of possible access to CNS sites, resulting from persistent viraemia. The virus is transmitted through the walls of the nutrient capillary walls and can be prevented if circulating polio IgG antibodies are present.</li>
+              <li><b>Neurological route:</b>
+                <ul>
+                  <li>Via the autonomic nervous system of the gut with retrograde spread through autonomic nerves.</li>
+                  <li>Both <b>IgA</b> and <b>IgG</b> are required to block this access route.</li>
+                  <li>Following access to the CNS, virus replication continues with subsequent destruction of the relevant cells.</li>
+                </ul>
+              </li>
+            </ul>
+            
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+      <hr style="margin: 3rem 0;">
+
+      <!-- PRACTICE QUESTIONS CONTAINER -->
+
+      <div class="custom-card" id="custom-card-2">
+        <div class="icon"><img src="../images/icons/practice-questions.png" alt="Icon" class="icon"></div>
+        <div class="title"> 
+          <h2>Practice Questions</h2>
+        </div>
+        <div class="line">
+          <p>Check how well you grasp the concepts by answering the following questions...</p>
+        </div>
+        <div class="content">
+          <ol>
+            <li><i>This content is not available yet.</i></li>
+          </ol>
+        </div>
+        <div class="read-more" onclick="toggleContent('custom-card-2')">Read More 🍪</div>
+      </div>
+
+      <!-- END OF PRACTICE QUESTIONS CONTAINER -->
+
+
+      <!-- CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+      <div class="contact">
+        <div class="comment-container">
+          <div class="comment-icon">
+            <!-- Add your icon image here -->
+            <img src="../images/icons/comment.png" alt="Comment Icon">
+          </div>
+          <div class="comment-text">
+            <!-- Add your text here -->
+            <p>Send your comments, corrections, explanations/clarifications and requests/suggestions </p>
+          </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdx2teDCmW6ivSeKLQg7zF_jy7Yfg_1Gqm84_UT0PQPATsNug/viewform?usp=sf_link" class="comment-button">
+            here
+            <!-- <img src="../images/icons/whatsapp.png" alt="Image Icon"> -->
+          </a>
+        </div>
+
+        <div class="contributors-container">
+
+          <h2 class="contributors-header">Contributors</h2>
+  
+        <br>
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/woman.png" alt="Contributor 1 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">Jane Smith</h3>
+                    <p class="contributor-description">She is not a real contributor.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                        </a>
+                        <a href="#" target="_blank" class="social-icon">
+                            <img src="../images/icons/twitter.png" alt="Social Icon 2">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="contributor-box">
+                <img class="contributor-avatar" src="../images/icons/man.png" alt="Contributor 2 Avatar">
+                <div class="contributor-info">
+                    <h3 class="contributor-name">John Doe</h3>
+                    <p class="contributor-description">He is not a real contributor.</p>
+                    <div class="social-links">
+                      <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/whatsapp.png" alt="Social Icon 1">
+                    </a>
+                    <a href="#" target="_blank" class="social-icon">
+                        <img src="../images/icons/linkedin.png" alt="Social Icon 2">
+                    </a>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+            <!-- END OF CONTACT- COMMENT AND CONTRIBUTORS CONTAINER -->
+    </article>
+   </article>
+   <div style="height: 300px;"></div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div>
+          <p id="popup-trigger">disclaimer</p>
+
+          <!-- The pop-up dive content -->
+          <div id="popup" class="popup">
+            <p>The contents on this ‘website’ are for educational purposes only. The creators and operators of this website make no warranties, express or implied, regarding the accuracy, currency, or completeness of the information provided on the website. They shall not be held responsible for any errors or omissions, or for any actions taken based on the information provided on this website.</p>
+            <button class="popup-close" onclick="closePopup()">Close</button>
+          </div>    
+          <p><a href="../about-temp2.html">about</a> </p>   
+          <p><a href="../contribute.html">contribute</a> </p>
+        </div>
+
+        <div class="footer-beta">
+          <p>thisisatestversion</p>
+        </div>
+    </div>
+  </footer>
+<!------------  SCROLL UP ----------->
+<a href="#" class="scrollup" id="scroll-up"> 
+  <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+<script src="../main.js"></script>
+<script src="../modal.js"></script>
+<script src="../notes-sidebar.js"></script>
+</body>
+</html>
+ 
