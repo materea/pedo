@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
       "Classification of the Newborn",
       "Congenital Infections",
       "Congenital Anomalies",
+      "Neonatal Resuscitation",
       "Acute Bronchiolitis",
       "Acute Respiratory Tract Infections",
       "Anatomy and Physiology of the Respiratory Tract",
@@ -122,7 +123,9 @@ document.addEventListener('DOMContentLoaded', function () {
       "Birth Trauma",
       "Paediatric shock",
       "Principles of Management of Poisoning in Children",
-      "Snake Bite and Envenomation"
+      "Snake Bite and Envenomation",
+      "",
+      "",
       
       // Add more topics as needed
     ];
