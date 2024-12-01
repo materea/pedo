@@ -11,7 +11,7 @@
   --color-darker-alpha: rgba(0, 16, 40, 0.506);
   --color-yellow: #f4b400;
   --color-green: #4caf50;
-  --color-red: #ff3333;
+  --color-red: #28a745;
   --color-secondary: #57a2f8;
   --color-secondary-lighter: #d6ebf2;
   --color-secondary-lightest: #f4f4f4;
@@ -42,7 +42,7 @@ html, body {
 }
 
 body {
-  color: var(--color-darker);
+  color: var(--color-primary-dark);
   font-family: var(--font-family-primary);
   overflow-x: hidden;
    position: relative;
